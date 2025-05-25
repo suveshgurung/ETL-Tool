@@ -1,6 +1,6 @@
 import logging
 import time
-import mysql.connector
+import mysql.connector as mysql
 from mysql.connector import errorcode
 
 # Logger setup
@@ -25,8 +25,8 @@ def connect_to_mysql(config, max_attempts=3, delay=2):
 
     while attempts < max_attempts + 1:
         try:
-            return mysql.connector.connect(**config)
-        except (mysql.connector.Error, IOError) as err:
+            return mysql.connect(**config)
+        except (mysql.Error, IOError) as err:
             if (attempts == max_attempts):
                 # All attempts to reconnect failed; return None
                 logger.info("Failed to connect to SQL database, exiting without a connection: %s", err)
