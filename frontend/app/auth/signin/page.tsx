@@ -1,12 +1,39 @@
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Separator } from "@/components/ui/separator"
-import { RefreshCw, Github, Mail } from "lucide-react"
-import Link from "next/link"
+'use client';
+
+import { useState } from 'react';
+import { useRouter } from 'next/navigation';
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { RefreshCw } from "lucide-react";
+import Link from "next/link";
+import { authService } from '@/lib/auth';
 
 export default function SignInPage() {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
+  const router = useRouter();
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setLoading(true);
+    setError('');
+
+    const result = await authService.signin(email, password);
+    
+    if (result.error) {
+      setError(result.error);
+    } else {
+      console.log('Signin successful:', result);
+      router.push('/dashboard');
+    }
+    
+    setLoading(false);
+  };
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8">
@@ -31,29 +58,15 @@ export default function SignInPage() {
             <CardDescription>Enter your credentials to access your ETL dashboard</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
-            {/* Social Sign In */}
-            <div className="space-y-3">
-              <Button variant="outline" className="w-full">
-                <Github className="w-4 h-4 mr-2" />
-                Continue with GitHub
-              </Button>
-              <Button variant="outline" className="w-full">
-                <Mail className="w-4 h-4 mr-2" />
-                Continue with Google
-              </Button>
-            </div>
-
-            <div className="relative">
-              <div className="absolute inset-0 flex items-center">
-                <Separator />
+            {/* Error Message */}
+            {error && (
+              <div className="p-3 bg-red-100 border border-red-400 text-red-700 rounded">
+                {error}
               </div>
-              <div className="relative flex justify-center text-xs uppercase">
-                <span className="bg-white px-2 text-gray-500">Or continue with</span>
-              </div>
-            </div>
+            )}
 
             {/* Email Sign In */}
-            <form className="space-y-4">
+            <form onSubmit={handleSubmit} className="space-y-4">
               <div className="space-y-2">
                 <Label htmlFor="email">Email address</Label>
                 <Input
@@ -63,16 +76,13 @@ export default function SignInPage() {
                   autoComplete="email"
                   required
                   placeholder="Enter your email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
 
               <div className="space-y-2">
-                <div className="flex items-center justify-between">
-                  <Label htmlFor="password">Password</Label>
-                  <Link href="/auth/forgot-password" className="text-sm text-blue-600 hover:text-blue-500">
-                    Forgot password?
-                  </Link>
-                </div>
+                <Label htmlFor="password">Password</Label>
                 <Input
                   id="password"
                   name="password"
@@ -80,23 +90,13 @@ export default function SignInPage() {
                   autoComplete="current-password"
                   required
                   placeholder="Enter your password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
                 />
               </div>
 
-              <div className="flex items-center">
-                <input
-                  id="remember-me"
-                  name="remember-me"
-                  type="checkbox"
-                  className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
-                />
-                <label htmlFor="remember-me" className="ml-2 block text-sm text-gray-900">
-                  Remember me
-                </label>
-              </div>
-
-              <Button type="submit" className="w-full">
-                Sign in
+              <Button type="submit" className="w-full" disabled={loading}>
+                {loading ? 'Signing in...' : 'Sign in'}
               </Button>
             </form>
 
@@ -110,21 +110,7 @@ export default function SignInPage() {
             </div>
           </CardContent>
         </Card>
-
-        {/* Footer */}
-        <div className="text-center text-xs text-gray-500">
-          <p>
-            By signing in, you agree to our{" "}
-            <Link href="/terms" className="underline hover:text-gray-700">
-              Terms of Service
-            </Link>{" "}
-            and{" "}
-            <Link href="/privacy" className="underline hover:text-gray-700">
-              Privacy Policy
-            </Link>
-          </p>
-        </div>
       </div>
     </div>
-  )
+  );
 }

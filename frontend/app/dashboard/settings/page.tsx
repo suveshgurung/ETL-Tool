@@ -1,5 +1,4 @@
 "use client"
-
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -8,12 +7,28 @@ import { Textarea } from "@/components/ui/textarea"
 import { Switch } from "@/components/ui/switch"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Badge } from "@/components/ui/badge"
-import { Database, User, CreditCard, Copy, Eye, EyeOff, Trash2, Plus } from "lucide-react"
+import { Database, User, CreditCard, Copy, Eye, EyeOff, Trash2, Plus, LogOut } from "lucide-react"
 import Link from "next/link"
 import { useState } from "react"
+import { useRouter } from "next/navigation"
+import { authService } from "@/lib/auth"
 
 export default function SettingsPage() {
   const [showApiKey, setShowApiKey] = useState(false)
+  const [isLoggingOut, setIsLoggingOut] = useState(false)
+  const router = useRouter()
+
+  const handleLogout = async () => {
+    setIsLoggingOut(true)
+    try {
+      await authService.signout()
+      router.push('/auth/signin')
+    } catch (error) {
+      console.error('Logout error:', error)
+    } finally {
+      setIsLoggingOut(false)
+    }
+  }
 
   const apiKeys = [
     {
@@ -33,7 +48,6 @@ export default function SettingsPage() {
       permissions: ["read"],
     },
   ]
-
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">
       {/* Header */}
@@ -53,15 +67,25 @@ export default function SettingsPage() {
             Settings
           </Link>
         </nav>
+        <div className="ml-auto">
+          <Button 
+            variant="outline" 
+            size="sm" 
+            onClick={handleLogout}
+            disabled={isLoggingOut}
+            className="flex items-center gap-2"
+          >
+            <LogOut className="h-4 w-4" />
+            {isLoggingOut ? 'Logging out...' : 'Logout'}
+          </Button>
+        </div>
       </header>
-
       <main className="flex-1 p-6">
         <div className="max-w-4xl mx-auto space-y-6">
           <div>
             <h1 className="text-3xl font-bold text-gray-900">Settings</h1>
             <p className="text-gray-600">Manage your account settings and preferences</p>
           </div>
-
           <Tabs defaultValue="profile" className="space-y-6">
             <TabsList className="grid w-full grid-cols-6">
               <TabsTrigger value="profile">Profile</TabsTrigger>
@@ -71,7 +95,6 @@ export default function SettingsPage() {
               <TabsTrigger value="billing">Billing</TabsTrigger>
               <TabsTrigger value="team">Team</TabsTrigger>
             </TabsList>
-
             {/* Profile Tab */}
             <TabsContent value="profile" className="space-y-6">
               <Card>
@@ -91,7 +114,6 @@ export default function SettingsPage() {
                       <p className="text-xs text-gray-600">JPG, PNG up to 2MB</p>
                     </div>
                   </div>
-
                   <div className="grid gap-4 md:grid-cols-2">
                     <div className="space-y-2">
                       <Label htmlFor="first-name">First name</Label>
@@ -102,26 +124,21 @@ export default function SettingsPage() {
                       <Input id="last-name" defaultValue="Doe" />
                     </div>
                   </div>
-
                   <div className="space-y-2">
                     <Label htmlFor="email">Email address</Label>
                     <Input id="email" type="email" defaultValue="john@company.com" />
                   </div>
-
                   <div className="space-y-2">
                     <Label htmlFor="company">Company</Label>
                     <Input id="company" defaultValue="Acme Inc." />
                   </div>
-
                   <div className="space-y-2">
                     <Label htmlFor="bio">Bio</Label>
                     <Textarea id="bio" placeholder="Tell us about yourself..." rows={3} />
                   </div>
-
                   <Button>Save Changes</Button>
                 </CardContent>
               </Card>
-
               <Card>
                 <CardHeader>
                   <CardTitle>Preferences</CardTitle>
@@ -135,7 +152,6 @@ export default function SettingsPage() {
                     </div>
                     <Switch />
                   </div>
-
                   <div className="flex items-center justify-between">
                     <div className="space-y-0.5">
                       <Label>Auto-save Jobs</Label>
@@ -143,7 +159,6 @@ export default function SettingsPage() {
                     </div>
                     <Switch defaultChecked />
                   </div>
-
                   <div className="space-y-2">
                     <Label htmlFor="timezone">Timezone</Label>
                     <Input id="timezone" defaultValue="UTC-8 (Pacific Time)" />
@@ -151,7 +166,6 @@ export default function SettingsPage() {
                 </CardContent>
               </Card>
             </TabsContent>
-
             {/* API Keys Tab */}
             <TabsContent value="api-keys" className="space-y-6">
               <Card>
@@ -183,7 +197,6 @@ export default function SettingsPage() {
                           ))}
                         </div>
                       </div>
-
                       <div className="flex items-center space-x-2">
                         <div className="flex-1 font-mono text-sm bg-gray-100 p-2 rounded">
                           {showApiKey ? key.key : "•".repeat(key.key.length)}
@@ -198,14 +211,12 @@ export default function SettingsPage() {
                           <Trash2 className="w-4 h-4" />
                         </Button>
                       </div>
-
                       <div className="text-xs text-gray-600">Last used: {key.lastUsed}</div>
                     </div>
                   ))}
                 </CardContent>
               </Card>
             </TabsContent>
-
             {/* Notifications Tab */}
             <TabsContent value="notifications" className="space-y-6">
               <Card>
@@ -221,7 +232,6 @@ export default function SettingsPage() {
                     </div>
                     <Switch defaultChecked />
                   </div>
-
                   <div className="flex items-center justify-between">
                     <div className="space-y-0.5">
                       <Label>Job Failures</Label>
@@ -229,7 +239,6 @@ export default function SettingsPage() {
                     </div>
                     <Switch defaultChecked />
                   </div>
-
                   <div className="flex items-center justify-between">
                     <div className="space-y-0.5">
                       <Label>System Maintenance</Label>
@@ -237,7 +246,6 @@ export default function SettingsPage() {
                     </div>
                     <Switch defaultChecked />
                   </div>
-
                   <div className="flex items-center justify-between">
                     <div className="space-y-0.5">
                       <Label>Weekly Reports</Label>
@@ -245,7 +253,6 @@ export default function SettingsPage() {
                     </div>
                     <Switch />
                   </div>
-
                   <div className="flex items-center justify-between">
                     <div className="space-y-0.5">
                       <Label>Marketing Updates</Label>
@@ -255,7 +262,6 @@ export default function SettingsPage() {
                   </div>
                 </CardContent>
               </Card>
-
               <Card>
                 <CardHeader>
                   <CardTitle>Webhook Notifications</CardTitle>
@@ -270,7 +276,6 @@ export default function SettingsPage() {
                 </CardContent>
               </Card>
             </TabsContent>
-
             {/* Security Tab */}
             <TabsContent value="security" className="space-y-6">
               <Card>
@@ -294,7 +299,6 @@ export default function SettingsPage() {
                   <Button>Update Password</Button>
                 </CardContent>
               </Card>
-
               <Card>
                 <CardHeader>
                   <CardTitle>Two-Factor Authentication</CardTitle>
@@ -311,7 +315,6 @@ export default function SettingsPage() {
                   <Button variant="outline">Setup Authenticator</Button>
                 </CardContent>
               </Card>
-
               <Card>
                 <CardHeader>
                   <CardTitle>Login Sessions</CardTitle>
@@ -340,7 +343,6 @@ export default function SettingsPage() {
                 </CardContent>
               </Card>
             </TabsContent>
-
             {/* Billing Tab */}
             <TabsContent value="billing" className="space-y-6">
               <Card>
@@ -365,7 +367,6 @@ export default function SettingsPage() {
                   </div>
                 </CardContent>
               </Card>
-
               <Card>
                 <CardHeader>
                   <CardTitle>Payment Method</CardTitle>
@@ -387,7 +388,6 @@ export default function SettingsPage() {
                   <Button variant="outline">Add Payment Method</Button>
                 </CardContent>
               </Card>
-
               <Card>
                 <CardHeader>
                   <CardTitle>Usage This Month</CardTitle>
@@ -415,7 +415,6 @@ export default function SettingsPage() {
                 </CardContent>
               </Card>
             </TabsContent>
-
             {/* Team Tab */}
             <TabsContent value="team" className="space-y-6">
               <Card>
@@ -470,7 +469,6 @@ export default function SettingsPage() {
                   </div>
                 </CardContent>
               </Card>
-
               <Card>
                 <CardHeader>
                   <CardTitle>Pending Invitations</CardTitle>

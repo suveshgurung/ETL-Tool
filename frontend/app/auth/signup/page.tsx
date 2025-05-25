@@ -1,217 +1,156 @@
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Separator } from "@/components/ui/separator"
-import { RefreshCw, Github, Mail, CheckCircle } from "lucide-react"
-import Link from "next/link"
+'use client';
+
+import { useState } from 'react';
+import { useRouter } from 'next/navigation';
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { RefreshCw } from "lucide-react";
+import Link from "next/link";
+import { authService } from '@/lib/auth';
 
 export default function SignUpPage() {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
+  const [success, setSuccess] = useState('');
+  const router = useRouter();
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setLoading(true);
+    setError('');
+    setSuccess('');
+
+    if (password !== confirmPassword) {
+      setError('Passwords do not match');
+      setLoading(false);
+      return;
+    }
+
+    if (password.length < 6) {
+      setError('Password must be at least 6 characters');
+      setLoading(false);
+      return;
+    }
+
+    const result = await authService.signup(email, password);
+    
+    if (result.error) {
+      setError(result.error);
+    } else {
+      setSuccess('Account created successfully! You can now sign in.');
+      console.log('Signup successful:', result);
+      // Redirect to signin after successful signup
+      setTimeout(() => {
+        router.push('/auth/signin');
+      }, 2000);
+    }
+    
+    setLoading(false);
+  };
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-4xl w-full">
-        <div className="grid gap-8 lg:grid-cols-2">
-          {/* Left Column - Benefits */}
-          <div className="space-y-8">
-            <div className="text-center lg:text-left">
-              <Link href="/" className="flex items-center justify-center lg:justify-start mb-6">
-                <RefreshCw className="h-12 w-12 text-blue-600" />
-                <span className="ml-3 text-2xl font-bold text-gray-900">DataFlow</span>
-              </Link>
-              <h1 className="text-4xl font-bold text-gray-900">Transform your data with ease</h1>
-              <p className="mt-4 text-lg text-gray-600">
-                Join thousands of companies using DataFlow to streamline their ETL operations
+      <div className="max-w-md w-full space-y-8">
+        {/* Header */}
+        <div className="text-center">
+          <Link href="/" className="flex items-center justify-center mb-6">
+            <RefreshCw className="h-12 w-12 text-blue-600" />
+            <span className="ml-3 text-2xl font-bold text-gray-900">DataFlow</span>
+          </Link>
+          <h2 className="text-3xl font-bold text-gray-900">Create your account</h2>
+          <p className="mt-2 text-sm text-gray-600">
+            Or{" "}
+            <Link href="/auth/signin" className="font-medium text-blue-600 hover:text-blue-500">
+              sign in to existing account
+            </Link>
+          </p>
+        </div>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Get started</CardTitle>
+            <CardDescription>Create your account to access the ETL dashboard</CardDescription>
+          </CardHeader>
+          <CardContent className="space-y-6">
+            {/* Error Message */}
+            {error && (
+              <div className="p-3 bg-red-100 border border-red-400 text-red-700 rounded">
+                {error}
+              </div>
+            )}
+
+            {/* Success Message */}
+            {success && (
+              <div className="p-3 bg-green-100 border border-green-400 text-green-700 rounded">
+                {success}
+              </div>
+            )}
+
+            {/* Email Sign Up */}
+            <form onSubmit={handleSubmit} className="space-y-4">
+              <div className="space-y-2">
+                <Label htmlFor="email">Email address</Label>
+                <Input
+                  id="email"
+                  name="email"
+                  type="email"
+                  autoComplete="email"
+                  required
+                  placeholder="Enter your email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                />
+              </div>
+
+              <div className="space-y-2">
+                <Label htmlFor="password">Password</Label>
+                <Input
+                  id="password"
+                  name="password"
+                  type="password"
+                  autoComplete="new-password"
+                  required
+                  placeholder="Create a password (min. 6 characters)"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                />
+              </div>
+
+              <div className="space-y-2">
+                <Label htmlFor="confirmPassword">Confirm Password</Label>
+                <Input
+                  id="confirmPassword"
+                  name="confirmPassword"
+                  type="password"
+                  autoComplete="new-password"
+                  required
+                  placeholder="Confirm your password"
+                  value={confirmPassword}
+                  onChange={(e) => setConfirmPassword(e.target.value)}
+                />
+              </div>
+
+              <Button type="submit" className="w-full" disabled={loading}>
+                {loading ? 'Creating account...' : 'Create account'}
+              </Button>
+            </form>
+
+            <div className="text-center">
+              <p className="text-sm text-gray-600">
+                {"Already have an account? "}
+                <Link href="/auth/signin" className="font-medium text-blue-600 hover:text-blue-500">
+                  Sign in
+                </Link>
               </p>
             </div>
-
-            <div className="space-y-6">
-              <div className="flex items-start space-x-3">
-                <CheckCircle className="w-6 h-6 text-green-600 mt-0.5" />
-                <div>
-                  <h3 className="font-medium text-gray-900">Multi-format Support</h3>
-                  <p className="text-gray-600">Convert between MongoDB, MySQL, PostgreSQL, CSV, and JSON</p>
-                </div>
-              </div>
-              <div className="flex items-start space-x-3">
-                <CheckCircle className="w-6 h-6 text-green-600 mt-0.5" />
-                <div>
-                  <h3 className="font-medium text-gray-900">Real-time Processing</h3>
-                  <p className="text-gray-600">Process millions of records with lightning-fast performance</p>
-                </div>
-              </div>
-              <div className="flex items-start space-x-3">
-                <CheckCircle className="w-6 h-6 text-green-600 mt-0.5" />
-                <div>
-                  <h3 className="font-medium text-gray-900">Enterprise Security</h3>
-                  <p className="text-gray-600">End-to-end encryption and enterprise-grade security</p>
-                </div>
-              </div>
-              <div className="flex items-start space-x-3">
-                <CheckCircle className="w-6 h-6 text-green-600 mt-0.5" />
-                <div>
-                  <h3 className="font-medium text-gray-900">No Coding Required</h3>
-                  <p className="text-gray-600">Visual interface for creating complex data transformations</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Right Column - Sign Up Form */}
-          <div className="space-y-8">
-            <Card>
-              <CardHeader>
-                <CardTitle>Create your account</CardTitle>
-                <CardDescription>Start your free trial today. No credit card required.</CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-6">
-                {/* Social Sign Up */}
-                <div className="space-y-3">
-                  <Button variant="outline" className="w-full">
-                    <Github className="w-4 h-4 mr-2" />
-                    Continue with GitHub
-                  </Button>
-                  <Button variant="outline" className="w-full">
-                    <Mail className="w-4 h-4 mr-2" />
-                    Continue with Google
-                  </Button>
-                </div>
-
-                <div className="relative">
-                  <div className="absolute inset-0 flex items-center">
-                    <Separator />
-                  </div>
-                  <div className="relative flex justify-center text-xs uppercase">
-                    <span className="bg-white px-2 text-gray-500">Or continue with</span>
-                  </div>
-                </div>
-
-                {/* Email Sign Up */}
-                <form className="space-y-4">
-                  <div className="grid gap-4 md:grid-cols-2">
-                    <div className="space-y-2">
-                      <Label htmlFor="first-name">First name</Label>
-                      <Input
-                        id="first-name"
-                        name="first-name"
-                        type="text"
-                        autoComplete="given-name"
-                        required
-                        placeholder="John"
-                      />
-                    </div>
-                    <div className="space-y-2">
-                      <Label htmlFor="last-name">Last name</Label>
-                      <Input
-                        id="last-name"
-                        name="last-name"
-                        type="text"
-                        autoComplete="family-name"
-                        required
-                        placeholder="Doe"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="space-y-2">
-                    <Label htmlFor="email">Email address</Label>
-                    <Input
-                      id="email"
-                      name="email"
-                      type="email"
-                      autoComplete="email"
-                      required
-                      placeholder="john@company.com"
-                    />
-                  </div>
-
-                  <div className="space-y-2">
-                    <Label htmlFor="company">Company name</Label>
-                    <Input
-                      id="company"
-                      name="company"
-                      type="text"
-                      autoComplete="organization"
-                      placeholder="Acme Inc."
-                    />
-                  </div>
-
-                  <div className="space-y-2">
-                    <Label htmlFor="password">Password</Label>
-                    <Input
-                      id="password"
-                      name="password"
-                      type="password"
-                      autoComplete="new-password"
-                      required
-                      placeholder="Create a strong password"
-                    />
-                    <p className="text-xs text-gray-600">
-                      Must be at least 8 characters with uppercase, lowercase, and numbers
-                    </p>
-                  </div>
-
-                  <div className="space-y-2">
-                    <Label htmlFor="confirm-password">Confirm password</Label>
-                    <Input
-                      id="confirm-password"
-                      name="confirm-password"
-                      type="password"
-                      autoComplete="new-password"
-                      required
-                      placeholder="Confirm your password"
-                    />
-                  </div>
-
-                  <div className="flex items-start space-x-2">
-                    <input
-                      id="terms"
-                      name="terms"
-                      type="checkbox"
-                      required
-                      className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded mt-0.5"
-                    />
-                    <label htmlFor="terms" className="text-sm text-gray-900">
-                      I agree to the{" "}
-                      <Link href="/terms" className="text-blue-600 hover:text-blue-500">
-                        Terms of Service
-                      </Link>{" "}
-                      and{" "}
-                      <Link href="/privacy" className="text-blue-600 hover:text-blue-500">
-                        Privacy Policy
-                      </Link>
-                    </label>
-                  </div>
-
-                  <div className="flex items-start space-x-2">
-                    <input
-                      id="marketing"
-                      name="marketing"
-                      type="checkbox"
-                      className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded mt-0.5"
-                    />
-                    <label htmlFor="marketing" className="text-sm text-gray-900">
-                      Send me product updates and marketing communications
-                    </label>
-                  </div>
-
-                  <Button type="submit" className="w-full">
-                    Create account
-                  </Button>
-                </form>
-
-                <div className="text-center">
-                  <p className="text-sm text-gray-600">
-                    Already have an account?{" "}
-                    <Link href="/auth/signin" className="font-medium text-blue-600 hover:text-blue-500">
-                      Sign in
-                    </Link>
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
+          </CardContent>
+        </Card>
       </div>
     </div>
-  )
+  );
 }

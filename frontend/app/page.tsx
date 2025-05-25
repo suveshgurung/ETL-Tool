@@ -26,13 +26,14 @@ export default function ETLServiceWebsite() {
           <Link href="#contact" className="text-sm font-medium hover:text-blue-600 transition-colors">
             Contact
           </Link>
-        </nav>
-        <div className="ml-6 flex gap-2">
-          <Button variant="ghost" size="sm">
+       <Link href="/auth/signin" className="font-medium text-blue-600 hover:text-blue-500">
             Sign In
-          </Button>
+                </Link>
+
+
+
+        </nav>
           <Button size="sm">Get Started</Button>
-        </div>
       </header>
 
       <main className="flex-1">
