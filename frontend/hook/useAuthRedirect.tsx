@@ -1,18 +1,17 @@
+
 'use client';
 
 import { useEffect } from 'react';
-import { useRouter } from 'next/navigation';
 import { useAuthStore } from '@/store/authStore';
+import { useRouter } from 'next/navigation';
 
-export default function DashboardPage() {
+export const useAuthRedirect = () => {
   const router = useRouter();
   const isAuthenticated = useAuthStore((state) => state.isAuthenticated);
 
   useEffect(() => {
-    if (!isAuthenticated) {
-      router.replace('/');
+    if (isAuthenticated) {
+      router.replace('/dashboard');
     }
   }, [isAuthenticated, router]);
-
-  return <div>This is Where things will be</div>;
-}
+};
