@@ -89,7 +89,7 @@ class SQLExtractor(BaseExtractor):
 
                 return schema_info
         except Exception as e:
-            raise Exception(str(e))
+            print(str(e))
 
 
 if __name__ == "__main__":
