@@ -5,9 +5,8 @@ from security.credential_vault import CredentialVault
 
 
 class BaseExtractor(ABC):
-    def __init__(self, connection_config: Dict[str, Any], user_id: str):
+    def __init__(self, connection_config: Dict[str, Any]):
         self.connection_config = connection_config
-        self.user_id = user_id
         self.connection = None
         self.credential_vault = CredentialVault()
 

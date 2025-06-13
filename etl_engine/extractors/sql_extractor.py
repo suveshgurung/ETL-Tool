@@ -57,6 +57,24 @@ class SQLExtractor(BaseExtractor):
         if not self.connection:
             self.connect()
 
+        """
+        {
+            "tables": [
+                ABCD,
+                EFGH,
+                IJKL
+            ],
+            "columns": {
+                "ABCD": [Name, Age, ...],
+                "EFGH": [OrderId, Amount, ...],
+                "IJKL": [qrcode, ...]
+            }
+        }
+        """
+        tables = query_config.get("tables")
+        # by defalt select all columns.
+        columns = query_config.get("columns", {"*": "*"})
+
         try:
             with self.connection.connect() as conn:
                 result = conn.execute(text("""SELECT * FROM Orders"""))
@@ -101,7 +119,7 @@ if __name__ == "__main__":
         "host": "localhost",
         "database": "test"
     }
-    extractor = SQLExtractor(connection_config, "1")
+    extractor = SQLExtractor(connection_config)
     extractor.connect()
     schema = extractor.get_schema()
     print(schema)
