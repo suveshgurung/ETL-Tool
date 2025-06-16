@@ -1,15 +1,29 @@
 from datetime import datetime, timedelta
 from typing import Optional
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends
+from sqlalchemy.orm import Session
 from passlib.context import CryptContext
 from jose import JWTError, jwt
-from pydantic import BaseModel
+from pydantic import BaseModel, EmailStr
 
+from app.core.database import get_db
 from app.core.config import settings
+from app.models.user import User
+
 
 # App router
 router = APIRouter()
 password_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+
+
+class UserCreate(BaseModel):
+    email: EmailStr
+    password: str
+
+
+class UserLogin(BaseModel):
+    email: EmailStr
+    password: str
 
 
 class Token(BaseModel):
@@ -36,6 +50,15 @@ def create_access_token(data: dict, expires_delta: Optional[timedelta] = None):
     data_to_encode.update({"expiry": str(expire_time)})
     encoded_jwt = jwt.encode(data_to_encode, settings.JWT_SECRET_KEY, algorithm=settings.ALGORITHM)
     return encoded_jwt
+
+
+@router.post("/signup")
+async def signup(user: UserCreate, db: Session = Depends(get_db)):
+    try:
+        user = db.query(User).filter(User.email == user.email).first()
+        print(user)
+    except Exception as e:
+        print(e)
 
 
 @router.get("/test")

@@ -6,3 +6,5 @@
 4. python-jose
 5. python-dotenv
 6. pydantic-settings
+7. SQLAlchemy
+8. pymysql
