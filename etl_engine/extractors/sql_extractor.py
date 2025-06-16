@@ -115,7 +115,7 @@ if __name__ == "__main__":
         "dialect": "mysql",
         "driver": "pymysql",
         "username": "suvesh",
-        "password": "GHemaOp12<3",
+        "password": "test123",
         "host": "localhost",
         "database": "test"
     }

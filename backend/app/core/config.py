@@ -13,7 +13,7 @@ class Settings(BaseSettings):
         "mysql+pymysql",
         username=os.getenv("DB_USER"),
         password=os.getenv("DB_PASSWORD"),
-        host="127.0.0.1",
+        host="localhost",
         database=os.getenv("DB_DATABASE")
     )
     DATABASE_URL: str = ""
@@ -25,7 +25,7 @@ class Settings(BaseSettings):
     ENCRYPTION_KEY: Optional[str] = None
 
     def model_post_init(self, __context) -> None:
-        object.__setattr__(self, "DATABASE_URL", str(self.url_object))
+        object.__setattr__(self, "DATABASE_URL", self.url_object)
 
 
 settings = Settings()
