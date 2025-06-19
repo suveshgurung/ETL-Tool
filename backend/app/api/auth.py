@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
-from typing import Optional
-from fastapi import APIRouter, Depends
+from typing import Any, Optional
+from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from passlib.context import CryptContext
 from jose import JWTError, jwt
@@ -52,13 +52,38 @@ def create_access_token(data: dict, expires_delta: Optional[timedelta] = None):
     return encoded_jwt
 
 
-@router.post("/signup")
+@router.post("/signup", response_model=Token)
 async def signup(user: UserCreate, db: Session = Depends(get_db)):
     try:
-        user = db.query(User).filter(User.email == user.email).first()
-        print(user)
+        db_user = db.query(User).filter(User.email == user.email).first()
+        if db_user:
+            raise HTTPException(status_code=400, detail="Email already registered")
+
+        # Create user
+        hashed_password = get_hashed_password(user.password)
+        workspace_id = f"workspace_{user.email.replace('@', '_').replace('.', '_')}"
+
+        db_user = User(
+            email=user.email,
+            password=hashed_password,
+            workspace_id=workspace_id
+        )
+        db.add(db_user)
+        db.commit()
+        db.refresh(db_user)
+
+        # Create access token
+        access_token_expiry = timedelta(minutes=settings.ACCESS_TOKEN_EXPIRE_MINUTES)
+        access_token = create_access_token(
+            data={"user": user.email},
+            expires_delta=access_token_expiry
+        )
+
+        return {"access_token": access_token, "token_type": "bearer"}
+    except HTTPException as e:
+        raise HTTPException(status_code=400, detail="Email already registered!")
     except Exception as e:
-        print(e)
+        raise HTTPException(status_code=500, detail="Internal server error")
 
 
 @router.get("/test")
