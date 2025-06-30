@@ -5,8 +5,7 @@ from security.credential_vault import CredentialVault
 
 
 class BaseExtractor(ABC):
-    def __init__(self, connection_config: Dict[str, Any]):
-        self.connection_config = connection_config
+    def __init__(self):
         self.connection = None
         self.credential_vault = CredentialVault()
 
@@ -16,13 +15,8 @@ class BaseExtractor(ABC):
         pass
 
     @abstractmethod
-    def extract(self, query_config: Dict[str, Any]) -> pd.DataFrame:
+    def extract(self):
         """Extract data based on user configuration"""
-        pass
-
-    @abstractmethod
-    def get_schema(self) -> Dict[str, Any]:
-        """Get schema information from the source"""
         pass
 
     def validate_permissions(self) -> bool:
