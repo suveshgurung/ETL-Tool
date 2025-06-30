@@ -15,3 +15,10 @@ class Department(Base):
 
     def __repr__(self):
         return f"<Department(department_name='{self.department_name}', school='{self.school_name}', number_of_faculty='{self.number_of_faculty}')>"
+
+    def as_dict(self):
+        return {
+            "department_name": self.department_name,
+            "school": self.school_name,
+            "number_of_faculty": self.number_of_faculty
+        }

@@ -14,3 +14,8 @@ class School(Base):
 
     def __repr__(self):
         return f"<School(school_name='{self.school_name}')>"
+
+    def as_dict(self):
+        return {
+            "school_name": self.school_name
+        }
