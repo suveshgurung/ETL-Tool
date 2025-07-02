@@ -3,3 +3,4 @@ __pycache__/
 .env
 *.sql
 *.txt
+/etl_env
