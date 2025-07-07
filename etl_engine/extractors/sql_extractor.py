@@ -25,6 +25,8 @@ class SQLExtractor(BaseExtractor):
         department_df = self.__extract_department_information()
         school_df = self.__extract_school_information()
 
+        return faculty_df, department_df, school_df
+
     def __extract_faculty_information(self) -> pd.DataFrame:
         try:
             with get_sql_db() as db:
@@ -59,4 +61,4 @@ class SQLExtractor(BaseExtractor):
 if __name__ == "__main__":
     sql = SQLExtractor()
     if sql.connect():
-        sql.extract()
+        faculty_df, department_df, school_df = sql.extract()
