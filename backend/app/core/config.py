@@ -16,7 +16,7 @@ class Settings(BaseSettings):
         host="localhost",
         database=os.getenv("DB_DATABASE")
     )
-    DATABASE_URL: str = ""
+    SQL_URL: str = ""
 
     # Security config
     JWT_SECRET_KEY: str = os.getenv("JWT_SECRET_KEY")
@@ -25,7 +25,7 @@ class Settings(BaseSettings):
     ENCRYPTION_KEY: Optional[str] = None
 
     def model_post_init(self, __context) -> None:
-        object.__setattr__(self, "DATABASE_URL", self.url_object)
+        object.__setattr__(self, "SQL_URL", self.url_object)
 
 
 settings = Settings()

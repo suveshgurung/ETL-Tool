@@ -7,7 +7,7 @@ from typing import ClassVar
 load_dotenv()
 
 class Settings(BaseSettings):
-    # Database config
+    # SQL database config
     url_object: ClassVar[URL] = URL.create(
         "mysql+pymysql",
         username=os.getenv("SQL_USER"),
@@ -15,9 +15,11 @@ class Settings(BaseSettings):
         host="localhost",
         database=os.getenv("SQL_DATABASE")
     )
-    DATABASE_URL: str = ""
+    SQL_URL: str = ""
+
+    # Mongodb
 
     def model_post_init(self, __context) -> None:
-        object.__setattr__(self, "DATABASE_URL", self.url_object)
+        object.__setattr__(self, "SQL_URL", self.url_object)
 
 settings = Settings()
