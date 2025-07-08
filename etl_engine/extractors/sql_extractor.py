@@ -4,7 +4,7 @@ from .base_extractor import BaseExtractor
 from etl_engine.models.faculty_model import Faculty
 from etl_engine.models.department_model import Department
 from etl_engine.models.school_model import School
-from etl_engine.core.database import get_sql_db
+from etl_engine.core.sql_database import get_sql_db
 
 
 class SQLExtractor(BaseExtractor):
@@ -58,7 +58,4 @@ class SQLExtractor(BaseExtractor):
             print(f"Extraction of school information failed: {e}")
 
 
-if __name__ == "__main__":
-    sql = SQLExtractor()
-    if sql.connect():
-        faculty_df, department_df, school_df = sql.extract()
+sql = SQLExtractor()

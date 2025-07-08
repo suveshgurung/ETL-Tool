@@ -18,6 +18,7 @@ class Settings(BaseSettings):
     SQL_URL: str = ""
 
     # Mongodb
+    MONGO_URL: str = os.getenv("MONGO_DB_URL")
 
     def model_post_init(self, __context) -> None:
         object.__setattr__(self, "SQL_URL", self.url_object)
