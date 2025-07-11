@@ -36,6 +36,7 @@ class SQLExtractor(BaseExtractor):
                 return faculty_df
         except Exception as e:
             print(f"Extraction of faculty information failed: {e}")
+            return pd.DataFrame()
 
     def __extract_department_information(self) -> pd.DataFrame:
         try:
@@ -46,6 +47,7 @@ class SQLExtractor(BaseExtractor):
                 return department_df
         except Exception as e:
             print(f"Extraction of department information failed: {e}")
+            return pd.DataFrame()
 
     def __extract_school_information(self) -> pd.DataFrame:
         try:
@@ -56,6 +58,7 @@ class SQLExtractor(BaseExtractor):
                 return school_df
         except Exception as e:
             print(f"Extraction of school information failed: {e}")
+            return pd.DataFrame()
 
 
 sql = SQLExtractor()
