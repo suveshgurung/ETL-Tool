@@ -1,8 +1,9 @@
-from dotenv import load_dotenv
 import os
-from sqlalchemy import URL
+from typing import ClassVar, Optional
+
+from dotenv import load_dotenv
 from pydantic_settings import BaseSettings
-from typing import Optional, ClassVar
+from sqlalchemy import URL
 
 load_dotenv()
 
@@ -14,7 +15,7 @@ class Settings(BaseSettings):
         username=os.getenv("DB_USER"),
         password=os.getenv("DB_PASSWORD"),
         host="localhost",
-        database=os.getenv("DB_DATABASE")
+        database=os.getenv("DB_DATABASE"),
     )
     SQL_URL: str = ""
 

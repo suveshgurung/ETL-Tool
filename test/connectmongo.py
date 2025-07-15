@@ -1,8 +1,5 @@
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
-from pymongo.database import Database
-from pymongo.collection import Collection
-from sqlalchemy.sql.visitors import replacement_traverse
 
 uri = "mongodb+srv://weebmaniac2314:wewequiTw@etldevelopement.ku7vykv.mongodb.net/?retryWrites=true&w=majority&appName=etlDevelopement"
 
@@ -15,12 +12,3 @@ try:
     print("Pinged your deployment. You successfully connected to MongoDB!")
 except Exception as e:
     print(e)
-
-
-def get_database() -> Database:
-    return client["etl_development"]
-
-
-def get_collection(name: str) -> Collection:
-    db = get_database()
-    return db[name]

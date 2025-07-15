@@ -1,10 +1,12 @@
-from sqlalchemy import text
 import pandas as pd
-from .base_extractor import BaseExtractor
-from etl_engine.models.faculty_model import Faculty
-from etl_engine.models.department_model import Department
-from etl_engine.models.school_model import School
+from sqlalchemy import text
+
 from etl_engine.core.sql_database import get_sql_db
+from etl_engine.models.department_model import Department
+from etl_engine.models.faculty_model import Faculty
+from etl_engine.models.school_model import School
+
+from .base_extractor import BaseExtractor
 
 
 class SQLExtractor(BaseExtractor):

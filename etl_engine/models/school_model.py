@@ -2,6 +2,7 @@ from sqlalchemy import Column, Integer, String, ForeignKey
 from sqlalchemy.orm import relationship
 from etl_engine.core.database import Base
 
+
 class School(Base):
     __tablename__ = "schools"
 
@@ -16,6 +17,4 @@ class School(Base):
         return f"<School(school_name='{self.school_name}')>"
 
     def as_dict(self):
-        return {
-            "school_name": self.school_name
-        }
+        return {"school_name": self.school_name}

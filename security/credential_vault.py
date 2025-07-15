@@ -1,8 +1,9 @@
-from cryptography.fernet import Fernet
-import json
 import base64
+import json
 import os
-from typing import Dict, Any
+from typing import Any, Dict
+
+from cryptography.fernet import Fernet
 
 
 class CredentialVault:
@@ -12,7 +13,7 @@ class CredentialVault:
 
     def _get_or_create_key(self) -> bytes:
         """Get encryption key from environment or create a new one"""
-        key = os.getenv('ENCRYPTION_KEY')
+        key = os.getenv("ENCRYPTION_KEY")
         if key:
             return base64.urlsafe_b64decode(key.encode())
         else:

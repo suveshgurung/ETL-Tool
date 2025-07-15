@@ -1,6 +1,8 @@
 from abc import ABC, abstractmethod
-from typing import Dict, Any
+from typing import Any, Dict
+
 import pandas as pd
+
 from security.credential_vault import CredentialVault
 
 
@@ -10,19 +12,19 @@ class BaseExtractor(ABC):
         self.credential_vault = CredentialVault()
 
     @abstractmethod
-    def connect(self):
+    def connect(self, connection_params: Dict[str, Any]) -> bool:
         """Establish connection using user-provided credentails"""
         pass
 
     @abstractmethod
-    def extract(self):
+    def extract(self, connection_params: Dict[str, Any]) -> bool:
         """Extract data based on user configuration"""
-        pass
+        return True
 
-    def validate_permissions(self) -> bool:
+    def validate_permissions(self, connection_params: Dict[str, Any]) -> bool:
         """Ensure user has read permissions"""
         try:
-            self.connect()
+            self.connect(connection_params)
             return True
         except Exception:
             return False
