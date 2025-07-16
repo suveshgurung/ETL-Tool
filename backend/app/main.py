@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from app.api import auth, database
 
-from app.api import auth
 
 app = FastAPI()
 
@@ -16,6 +16,7 @@ app.add_middleware(
 
 # Routers
 app.include_router(auth.router, prefix="/api/auth")
+app.include_router(database.router, prefix="/api/database", tags=["Database"])
 
 
 @app.get("/")

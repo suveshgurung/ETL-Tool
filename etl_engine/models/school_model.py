@@ -1,9 +1,8 @@
 from sqlalchemy import Column, Integer, String, ForeignKey
 from sqlalchemy.orm import relationship
-from etl_engine.core.database import Base
 
 
-class School(Base):
+class School():
     __tablename__ = "schools"
 
     school_name = Column(String(100), primary_key=True, index=True)
