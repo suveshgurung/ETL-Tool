@@ -16,7 +16,4 @@ client = MongoClient(
 @contextmanager
 def get_mongo_db():
     db = client[os.getenv("MONGO_DATABASE")]
-    try:
-        yield db
-    finally:
-        client.close()
+    yield db
