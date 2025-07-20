@@ -1,0 +1,14 @@
+uvicorn
+fastapi
+jose
+pydantic
+cryptography
+sqlalchemy
+psycopg2
+psycopg2-binary
+pymongo
+pymysql
+passlib
+python-dotenv
+dotenv
+pydantic-settings
