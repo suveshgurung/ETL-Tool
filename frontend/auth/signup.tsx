@@ -26,21 +26,50 @@ export default function SignupPage() {
     })
 
     const handleSubmit = async (e: React.FormEvent) => {
-        e.preventDefault()
+        e.preventDefault();
+
         if (formData.password !== formData.confirmPassword) {
-            alert("Passwords don't match")
-            return
+            alert("Passwords don't match");
+            return;
         }
+
         if (!acceptTerms) {
-            alert("Please accept the terms and conditions")
-            return
+            alert("Please accept the terms and conditions");
+            return;
         }
-        setIsLoading(true)
-        // Simulate API call
-        await new Promise((resolve) => setTimeout(resolve, 1000))
-        setIsLoading(false)
-        // Handle signup logic here
-    }
+
+        setIsLoading(true);
+
+        try {
+            const response = await fetch("http://localhost:8000/api/register", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    username: formData.email.split("@")[0], // temporary username logic
+                    email: formData.email,
+                    hashed_password: formData.password, // <-- send as hashed_password
+                    first_name: formData.firstName,
+                    last_name: formData.lastName,
+                }),
+            });
+
+            const data = await response.json();
+
+            if (!response.ok) {
+                throw new Error(data.detail || "Registration failed");
+            }
+
+            alert("Account created successfully!");
+            // Optional: redirect to login or clear form
+        } catch (error: any) {
+            alert(error.message || "Something went wrong");
+        } finally {
+            setIsLoading(false);
+        }
+    };
+
 
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         setFormData((prev) => ({

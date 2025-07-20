@@ -4,6 +4,7 @@ from sqlalchemy.orm import Session
 from app.core.database import get_db
 from app.models import User, Workspace
 from app.core.database import create_tables
+from app.api import auth
 
 
 ## This function is in database to create tables
@@ -21,6 +22,8 @@ app.add_middleware(
 
 
 # app.include_router(authencation.router, prefix="/api/auth")
+
+app.include_router(auth.router, prefix="/api")
 
 
 ##@app.get("/test")
