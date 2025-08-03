@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, ForeignKey
 from sqlalchemy.orm import relationship
-from etl_engine.core.database import Base
+from etl_engine.core.sql_database import Base
 
 class School(Base):
     __tablename__ = "schools"
