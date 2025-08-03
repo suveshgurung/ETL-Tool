@@ -13,12 +13,12 @@ class MongoExtractor(BaseExtractor):
             print(f"Connection failed: {e}")
             return False
 
-    def extract(self):
+    def extract(self) -> pd.DataFrame:
         department_df = self.__extract_department_information()
         school_df = self.__extract_school_information()
         research_df = self.__extract_research_papers()
-        print(research_df)
-        pass
+
+        return research_df
 
     def __extract_research_papers(self) -> pd.DataFrame:
         try:

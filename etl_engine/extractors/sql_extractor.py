@@ -20,7 +20,7 @@ class SQLExtractor(BaseExtractor):
             print(f"Connection failed: {e}")
             return False
 
-    def extract(self):
+    def extract(self) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
         faculty_df = self.__extract_faculty_information()
         department_df = self.__extract_department_information()
         school_df = self.__extract_school_information()
@@ -59,6 +59,3 @@ class SQLExtractor(BaseExtractor):
         except Exception as e:
             print(f"Extraction of school information failed: {e}")
             return pd.DataFrame()
-
-
-sql = SQLExtractor()
