@@ -3,3 +3,4 @@ __pycache__/
 .env
 *.sql
 *.txt
+research_papers.json
