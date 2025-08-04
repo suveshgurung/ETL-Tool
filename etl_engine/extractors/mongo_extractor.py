@@ -40,6 +40,7 @@ class MongoExtractor(BaseExtractor):
                             'last_name': last_name,
                             'department': doc['department'],
                             'school': doc['school'],
+                            'research_area': doc['research_area'],
                             'paper_title': paper['title'],
                             'published_year': paper['year'],
                             'journal': paper['journal'],
