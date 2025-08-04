@@ -1,0 +1,6221 @@
+[
+  {
+    "faculty_id": "1",
+    "first_name": "Kanhaiya",
+    "middle_name": "NULL",
+    "last_name": "Jha",
+    "department": "Department of Mathematics",
+    "school": "School of Science",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "2",
+    "first_name": "Jyoti",
+    "middle_name": "NULL",
+    "last_name": "Upadhyaya",
+    "department": "Department of Mathematics",
+    "school": "School of Science",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "3",
+    "first_name": "Dil",
+    "middle_name": "Bahadur",
+    "last_name": "Gurung",
+    "department": "Department of Mathematics",
+    "school": "School of Science",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "4",
+    "first_name": "Ram",
+    "middle_name": "Prasad",
+    "last_name": "Ghimire",
+    "department": "Department of Mathematics",
+    "school": "School of Science",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "5",
+    "first_name": "Rabindra",
+    "middle_name": "NULL",
+    "last_name": "Kayastha",
+    "department": "Department of Mathematics",
+    "school": "School of Science",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "6",
+    "first_name": "Samir",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Mathematics",
+    "school": "School of Science",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "7",
+    "first_name": "Gokul",
+    "middle_name": "NULL",
+    "last_name": "KC",
+    "department": "Department of Mathematics",
+    "school": "School of Science",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "8",
+    "first_name": "Saraswati",
+    "middle_name": "NULL",
+    "last_name": "Acharya",
+    "department": "Department of Mathematics",
+    "school": "School of Science",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "9",
+    "first_name": "Kiran",
+    "middle_name": "Kumar",
+    "last_name": "Shrestha",
+    "department": "Department of Mathematics",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "10",
+    "first_name": "K.",
+    "middle_name": "B.",
+    "last_name": "Manandhar",
+    "department": "Department of Mathematics",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "11",
+    "first_name": "Ganga",
+    "middle_name": "Ram",
+    "last_name": "Phaijoo",
+    "department": "Department of Mathematics",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "12",
+    "first_name": "Khim",
+    "middle_name": "Bahadur",
+    "last_name": "Khatri",
+    "department": "Department of Mathematics",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "13",
+    "first_name": "Sushil",
+    "middle_name": "NULL",
+    "last_name": "Ghimire",
+    "department": "Department of Mathematics",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "14",
+    "first_name": "Harish",
+    "middle_name": "Chandra",
+    "last_name": "Bhandari",
+    "department": "Department of Mathematics",
+    "school": "School of Science",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "15",
+    "first_name": "Ram",
+    "middle_name": "Chandra",
+    "last_name": "Dhungana",
+    "department": "Department of Mathematics",
+    "school": "School of Science",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "16",
+    "first_name": "Chandra",
+    "middle_name": "Prakash",
+    "last_name": "Aryal",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "17",
+    "first_name": "Ngima",
+    "middle_name": "Gelu",
+    "last_name": "Lama",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "18",
+    "first_name": "Shyam",
+    "middle_name": "NULL",
+    "last_name": "Prajapati",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Teaching Assistant"
+  },
+  {
+    "faculty_id": "19",
+    "first_name": "Kirti",
+    "middle_name": "Man",
+    "last_name": "Shakya",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Teaching Assistant"
+  },
+  {
+    "faculty_id": "20",
+    "first_name": "Anil",
+    "middle_name": "NULL",
+    "last_name": "Shahi",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Academic Lecturer"
+  },
+  {
+    "faculty_id": "21",
+    "first_name": "Sanjeep",
+    "middle_name": "NULL",
+    "last_name": "Maharjan",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "22",
+    "first_name": "Pratima",
+    "middle_name": "NULL",
+    "last_name": "Thakali",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "23",
+    "first_name": "Sagar",
+    "middle_name": "NULL",
+    "last_name": "Manandhar",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "24",
+    "first_name": "Binayak",
+    "middle_name": "Krishna",
+    "last_name": "Thapa",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "25",
+    "first_name": "Bhuwan",
+    "middle_name": "NULL",
+    "last_name": "Thapa",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "26",
+    "first_name": "Chandi",
+    "middle_name": "Raj",
+    "last_name": "Dahal",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "27",
+    "first_name": "Santosh",
+    "middle_name": "NULL",
+    "last_name": "Adhikari",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "28",
+    "first_name": "Sudarshan",
+    "middle_name": "Prasad",
+    "last_name": "Dahal",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "29",
+    "first_name": "Sujan",
+    "middle_name": "NULL",
+    "last_name": "Chitrakar",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "30",
+    "first_name": "Kaushal",
+    "middle_name": "NULL",
+    "last_name": "Joshi",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "31",
+    "first_name": "Chandra",
+    "middle_name": "Lal",
+    "last_name": "Pandey",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "32",
+    "first_name": "Kashiraj",
+    "middle_name": "NULL",
+    "last_name": "Pandey",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "33",
+    "first_name": "Sudhamshu",
+    "middle_name": "NULL",
+    "last_name": "Dahal",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "34",
+    "first_name": "Megh",
+    "middle_name": "Raj",
+    "last_name": "Dangal",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "35",
+    "first_name": "Ram",
+    "middle_name": "Chandra",
+    "last_name": "Paudel",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "36",
+    "first_name": "Nirmala",
+    "middle_name": "Mani",
+    "last_name": "Adhikary",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "37",
+    "first_name": "Dhiraj",
+    "middle_name": "NULL",
+    "last_name": "Giri",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "38",
+    "first_name": "Mahesh",
+    "middle_name": "NULL",
+    "last_name": "Banskota",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "39",
+    "first_name": "Sagar",
+    "middle_name": "Raj",
+    "last_name": "Sharma",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "40",
+    "first_name": "Uddhab",
+    "middle_name": "NULL",
+    "last_name": "Pyakurel",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "41",
+    "first_name": "Ekku",
+    "middle_name": "Maya",
+    "last_name": "Pun",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "42",
+    "first_name": "Bharat",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Manager"
+  },
+  {
+    "faculty_id": "43",
+    "first_name": "Padam",
+    "middle_name": "Bahadur",
+    "last_name": "Karki",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Librarian"
+  },
+  {
+    "faculty_id": "44",
+    "first_name": "Krishna",
+    "middle_name": "Hari",
+    "last_name": "Neupane",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Administrative Assistant"
+  },
+  {
+    "faculty_id": "45",
+    "first_name": "Nirandira",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Administrative Assistant - Account"
+  },
+  {
+    "faculty_id": "46",
+    "first_name": "Alina",
+    "middle_name": "NULL",
+    "last_name": "Thapa",
+    "department": "NULL",
+    "school": "School of Arts",
+    "position": "Support Staff (S1) - Receptionist"
+  },
+  {
+    "faculty_id": "47",
+    "first_name": "Mana",
+    "middle_name": "Prasad",
+    "last_name": "Wagley",
+    "department": "Department of Educational Leadership",
+    "school": "School of Education",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "48",
+    "first_name": "Dhanapati",
+    "middle_name": "NULL",
+    "last_name": "Subedi",
+    "department": "Department of Educational Leadership",
+    "school": "School of Education",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "49",
+    "first_name": "Shesha",
+    "middle_name": "Kanta",
+    "last_name": "Pangeni",
+    "department": "Department of Educational Leadership",
+    "school": "School of Education",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "50",
+    "first_name": "Rebat",
+    "middle_name": "Kumar",
+    "last_name": "Dhakal",
+    "department": "Department of Educational Leadership",
+    "school": "School of Education",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "51",
+    "first_name": "Basu",
+    "middle_name": "Prasad",
+    "last_name": "Subedi",
+    "department": "Department of Educational Leadership",
+    "school": "School of Education",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "52",
+    "first_name": "Shree",
+    "middle_name": "Krishna",
+    "last_name": "Wagle",
+    "department": "Department of Educational Leadership",
+    "school": "School of Education",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "53",
+    "first_name": "Madhab",
+    "middle_name": "Prasad",
+    "last_name": "Khatiwada",
+    "department": "Department of Educational Leadership",
+    "school": "School of Education",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "54",
+    "first_name": "Prativa",
+    "middle_name": "NULL",
+    "last_name": "Rai",
+    "department": "Department of Educational Leadership",
+    "school": "School of Education",
+    "position": "Research Assistant"
+  },
+  {
+    "faculty_id": "55",
+    "first_name": "Anjana",
+    "middle_name": "NULL",
+    "last_name": "Malla",
+    "department": "Department of Educational Leadership",
+    "school": "School of Education",
+    "position": "Research Fellow"
+  },
+  {
+    "faculty_id": "56",
+    "first_name": "Georgianna",
+    "middle_name": "NULL",
+    "last_name": "Duarte",
+    "department": "Department of Educational Leadership",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "57",
+    "first_name": "Lava",
+    "middle_name": "Deo",
+    "last_name": "Awasthi",
+    "department": "Department of Educational Leadership",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "58",
+    "first_name": "Hari",
+    "middle_name": "NULL",
+    "last_name": "Lamsal",
+    "department": "Department of Educational Leadership",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "59",
+    "first_name": "Mahashram",
+    "middle_name": "NULL",
+    "last_name": "Sharma",
+    "department": "Department of Educational Leadership",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "60",
+    "first_name": "Meenakshi",
+    "middle_name": "NULL",
+    "last_name": "Dahal",
+    "department": "Department of Educational Leadership",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "61",
+    "first_name": "Basu",
+    "middle_name": "Prasad",
+    "last_name": "Subedi",
+    "department": "Department of Educational Leadership",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "62",
+    "first_name": "Raj",
+    "middle_name": "Kumar",
+    "last_name": "Dhungana",
+    "department": "Department of Educational Leadership",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "63",
+    "first_name": "Bhawana",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Educational Leadership",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "64",
+    "first_name": "Medin",
+    "middle_name": "Bahadur",
+    "last_name": "Lamichhane",
+    "department": "Department of Educational Leadership",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "65",
+    "first_name": "Chet",
+    "middle_name": "Nath",
+    "last_name": "Pant",
+    "department": "Department of Educational Leadership",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "66",
+    "first_name": "Ramila",
+    "middle_name": "NULL",
+    "last_name": "Subedi",
+    "department": "Department of Educational Leadership",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "67",
+    "first_name": "Devi",
+    "middle_name": "Ram",
+    "last_name": "Acharya",
+    "department": "Department of Educational Leadership",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "68",
+    "first_name": "Kathleen",
+    "middle_name": "NULL",
+    "last_name": "Price",
+    "department": "Department of Educational Leadership",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "69",
+    "first_name": "Parbati",
+    "middle_name": "NULL",
+    "last_name": "Dhungana",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "70",
+    "first_name": "Madan",
+    "middle_name": "NULL",
+    "last_name": "Rijal",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "71",
+    "first_name": "Sandip",
+    "middle_name": "NULL",
+    "last_name": "Dhungana",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "72",
+    "first_name": "Sarita",
+    "middle_name": "NULL",
+    "last_name": "Khadka",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "73",
+    "first_name": "Meenakshi",
+    "middle_name": "NULL",
+    "last_name": "Dahal",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "74",
+    "first_name": "Reeta",
+    "middle_name": "NULL",
+    "last_name": "Sonawat",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "75",
+    "first_name": "Ganga",
+    "middle_name": "NULL",
+    "last_name": "Pathak",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "76",
+    "first_name": "Chet",
+    "middle_name": "Nath",
+    "last_name": "Panta",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "77",
+    "first_name": "Baburam",
+    "middle_name": "NULL",
+    "last_name": "Dhungana",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "78",
+    "first_name": "Jiwak",
+    "middle_name": "Raj",
+    "last_name": "Bajracharya",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "79",
+    "first_name": "Uttam",
+    "middle_name": "NULL",
+    "last_name": "Uprety",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "80",
+    "first_name": "Narayani",
+    "middle_name": "NULL",
+    "last_name": "Thakuri",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "81",
+    "first_name": "Laxman",
+    "middle_name": "NULL",
+    "last_name": "Luitel",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "82",
+    "first_name": "Aashisa",
+    "middle_name": "NULL",
+    "last_name": "Thapa",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "83",
+    "first_name": "Rajendra",
+    "middle_name": "NULL",
+    "last_name": "Dahal",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "84",
+    "first_name": "Samiksha",
+    "middle_name": "NULL",
+    "last_name": "Hada",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "85",
+    "first_name": "Bhanu",
+    "middle_name": "Bhakta",
+    "last_name": "Khadka",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "86",
+    "first_name": "Pooja",
+    "middle_name": "NULL",
+    "last_name": "Dangol",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "87",
+    "first_name": "Sunoj",
+    "middle_name": "Das",
+    "last_name": "Shrestha",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "88",
+    "first_name": "Gobinda",
+    "middle_name": "NULL",
+    "last_name": "Poudal",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "89",
+    "first_name": "Ramesh",
+    "middle_name": "NULL",
+    "last_name": "Baral",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "90",
+    "first_name": "Surendra",
+    "middle_name": "NULL",
+    "last_name": "Bajracharya",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "91",
+    "first_name": "Madhusudan",
+    "middle_name": "NULL",
+    "last_name": "Pokharel",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "92",
+    "first_name": "Sijan",
+    "middle_name": "NULL",
+    "last_name": "Shakya",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "93",
+    "first_name": "Manju",
+    "middle_name": "NULL",
+    "last_name": "Maharjan",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "94",
+    "first_name": "Jileshan",
+    "middle_name": "NULL",
+    "last_name": "Saha",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "95",
+    "first_name": "Rajanee",
+    "middle_name": "NULL",
+    "last_name": "Maharjan",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "96",
+    "first_name": "Anita",
+    "middle_name": "NULL",
+    "last_name": "Kafle",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "97",
+    "first_name": "Babita",
+    "middle_name": "NULL",
+    "last_name": "Maharjan",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "98",
+    "first_name": "Purushottam",
+    "middle_name": "NULL",
+    "last_name": "Ghimire",
+    "department": "Department of Inclusive Education",
+    "school": "Early Childhood Development and Professional Studies",
+    "position": "School of Education"
+  },
+  {
+    "faculty_id": "99",
+    "first_name": "Binod",
+    "middle_name": "Prasad",
+    "last_name": "Pant",
+    "department": "Department of STEAM Education",
+    "school": "School of Education",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "100",
+    "first_name": "Roshani",
+    "middle_name": "NULL",
+    "last_name": "Rajbanshi",
+    "department": "Department of STEAM Education",
+    "school": "School of Education",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "101",
+    "first_name": "Indra",
+    "middle_name": "Mani",
+    "last_name": "Shrestha",
+    "department": "Department of STEAM Education",
+    "school": "School of Education",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "102",
+    "first_name": "Niroj",
+    "middle_name": "NULL",
+    "last_name": "Dahal",
+    "department": "Department of STEAM Education",
+    "school": "School of Education",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "103",
+    "first_name": "Netra",
+    "middle_name": "Kumar",
+    "last_name": "Manandhar",
+    "department": "Department of STEAM Education",
+    "school": "School of Education",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "104",
+    "first_name": "Madan",
+    "middle_name": "NULL",
+    "last_name": "Rijal",
+    "department": "Department of STEAM Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "105",
+    "first_name": "Rameshower",
+    "middle_name": "NULL",
+    "last_name": "Aryal",
+    "department": "Department of STEAM Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "106",
+    "first_name": "Tek",
+    "middle_name": "Bahadur",
+    "last_name": "Budhathoki",
+    "department": "Department of STEAM Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "107",
+    "first_name": "Khagendra",
+    "middle_name": "NULL",
+    "last_name": "Adhikari",
+    "department": "Department of STEAM Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "108",
+    "first_name": "Shiva",
+    "middle_name": "NULL",
+    "last_name": "Dawadi",
+    "department": "Department of STEAM Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "109",
+    "first_name": "Laxman",
+    "middle_name": "NULL",
+    "last_name": "Luitel",
+    "department": "Department of STEAM Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "110",
+    "first_name": "Janardan",
+    "middle_name": "NULL",
+    "last_name": "Baral",
+    "department": "Department of STEAM Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "111",
+    "first_name": "Parbati",
+    "middle_name": "NULL",
+    "last_name": "Dhungana",
+    "department": "Department of STEAM Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "112",
+    "first_name": "Indra",
+    "middle_name": "Yamphu",
+    "last_name": "Rai",
+    "department": "Department of STEAM Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "113",
+    "first_name": "Sharareh",
+    "middle_name": "NULL",
+    "last_name": "Bajracharya",
+    "department": "Department of STEAM Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "114",
+    "first_name": "Hasen",
+    "middle_name": "NULL",
+    "last_name": "Shakya",
+    "department": "Department of STEAM Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "115",
+    "first_name": "Shree",
+    "middle_name": "Krishna",
+    "last_name": "Wagle",
+    "department": "Department of STEAM Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "116",
+    "first_name": "Bal",
+    "middle_name": "Chandra",
+    "last_name": "Luitel",
+    "department": "Department of STEAM Education",
+    "school": "School of Education",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "117",
+    "first_name": "Laxman",
+    "middle_name": "NULL",
+    "last_name": "Gnawali",
+    "department": "Department of Language Education",
+    "school": "School of Education",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "118",
+    "first_name": "Hem",
+    "middle_name": "Raj",
+    "last_name": "Kafle",
+    "department": "Department of Language Education",
+    "school": "School of Education",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "119",
+    "first_name": "Tikaram",
+    "middle_name": "NULL",
+    "last_name": "Poudel",
+    "department": "Department of Language Education",
+    "school": "School of Education",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "120",
+    "first_name": "Bharat",
+    "middle_name": "Prasad",
+    "last_name": "Neupane",
+    "department": "Department of Language Education",
+    "school": "School of Education",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "121",
+    "first_name": "Surendra",
+    "middle_name": "Prasad",
+    "last_name": "Bhatt",
+    "department": "Department of Language Education",
+    "school": "School of Education",
+    "position": "Research Assistant"
+  },
+  {
+    "faculty_id": "122",
+    "first_name": "Jai",
+    "middle_name": "Raj",
+    "last_name": "Awasthi",
+    "department": "Department of Language Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "123",
+    "first_name": "Lava",
+    "middle_name": "Deo",
+    "last_name": "Awasthi",
+    "department": "Department of Language Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "124",
+    "first_name": "Dinesh",
+    "middle_name": "NULL",
+    "last_name": "Thapa",
+    "department": "Department of Language Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "125",
+    "first_name": "KP",
+    "middle_name": "NULL",
+    "last_name": "Ghimire",
+    "department": "Department of Language Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "126",
+    "first_name": "DN",
+    "middle_name": "NULL",
+    "last_name": "Joshi",
+    "department": "Department of Language Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "127",
+    "first_name": "Shikha",
+    "middle_name": "NULL",
+    "last_name": "Gurung",
+    "department": "Department of Language Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "128",
+    "first_name": "Indra",
+    "middle_name": "Mani",
+    "last_name": "Rai",
+    "department": "Department of Development Education",
+    "school": "School of Education",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "129",
+    "first_name": "Suresh",
+    "middle_name": "NULL",
+    "last_name": "Gautam",
+    "department": "Department of Development Education",
+    "school": "School of Education",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "130",
+    "first_name": "Parbat",
+    "middle_name": "NULL",
+    "last_name": "Dhungana",
+    "department": "Department of Development Education",
+    "school": "School of Education",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "131",
+    "first_name": "Lina",
+    "middle_name": "NULL",
+    "last_name": "Gurung",
+    "department": "Department of Development Education",
+    "school": "School of Education",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "132",
+    "first_name": "Shardul",
+    "middle_name": "NULL",
+    "last_name": "Neupane",
+    "department": "Department of Development Education",
+    "school": "School of Education",
+    "position": "Teaching Assistant"
+  },
+  {
+    "faculty_id": "133",
+    "first_name": "Menuka",
+    "middle_name": "NULL",
+    "last_name": "Sangroula",
+    "department": "Department of Development Education",
+    "school": "School of Education",
+    "position": "Research Assistant"
+  },
+  {
+    "faculty_id": "134",
+    "first_name": "Binod",
+    "middle_name": "Krishna",
+    "last_name": "Shrestha",
+    "department": "Department of Development Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "135",
+    "first_name": "Pramod",
+    "middle_name": "Bahadur",
+    "last_name": "Shrestha",
+    "department": "Department of Development Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "136",
+    "first_name": "Gavin",
+    "middle_name": "NULL",
+    "last_name": "Melles",
+    "department": "Department of Development Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "137",
+    "first_name": "Kushmakar",
+    "middle_name": "NULL",
+    "last_name": "Bhatta",
+    "department": "Department of Development Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "138",
+    "first_name": "Hari",
+    "middle_name": "Prasad",
+    "last_name": "Lamsal",
+    "department": "Department of Development Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "139",
+    "first_name": "Usha",
+    "middle_name": "NULL",
+    "last_name": "Bhandari",
+    "department": "Department of Development Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "140",
+    "first_name": "Indra",
+    "middle_name": "Mani",
+    "last_name": "Yamphu",
+    "department": "Department of Development Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "141",
+    "first_name": "Pasang",
+    "middle_name": "Dolma",
+    "last_name": "Sherpa",
+    "department": "Department of Development Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "142",
+    "first_name": "Raj",
+    "middle_name": "Kumar",
+    "last_name": "Dhungana",
+    "department": "Department of Development Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "143",
+    "first_name": "Durga",
+    "middle_name": "Prasad",
+    "last_name": "Baral",
+    "department": "Department of Development Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "144",
+    "first_name": "Pasang",
+    "middle_name": "Yangjee",
+    "last_name": "Sherpa",
+    "department": "Department of Development Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "145",
+    "first_name": "Prakash",
+    "middle_name": "Kumar",
+    "last_name": "Paudel",
+    "department": "Department of Development Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "146",
+    "first_name": "Sagar",
+    "middle_name": "NULL",
+    "last_name": "Neupane",
+    "department": "Department of Development Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "147",
+    "first_name": "Uttam",
+    "middle_name": "NULL",
+    "last_name": "Uprety",
+    "department": "Department of Development Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "148",
+    "first_name": "Amir",
+    "middle_name": "NULL",
+    "last_name": "Joshi",
+    "department": "Department of Development Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "149",
+    "first_name": "Anil",
+    "middle_name": "Muni",
+    "last_name": "Bajracharya",
+    "department": "Department of Development Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "150",
+    "first_name": "Richan",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Development Education",
+    "school": "School of Education",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "151",
+    "first_name": "Mahesh",
+    "middle_name": "Nath",
+    "last_name": "Parajuli",
+    "department": "Department of Development Education",
+    "school": "School of Education",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "152",
+    "first_name": "Prakash",
+    "middle_name": "Chandra",
+    "last_name": "Bhattarai",
+    "department": "Department of Development Education",
+    "school": "School of Education",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "153",
+    "first_name": "Manish",
+    "middle_name": "NULL",
+    "last_name": "Pokharel",
+    "department": "Department of Computer Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "154",
+    "first_name": "Sudan",
+    "middle_name": "NULL",
+    "last_name": "Jha",
+    "department": "Department of Computer Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "155",
+    "first_name": "Bal",
+    "middle_name": "Krishna",
+    "last_name": "Bal",
+    "department": "Department of Computer Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "156",
+    "first_name": "Gajendra",
+    "middle_name": "NULL",
+    "last_name": "Sharma",
+    "department": "Department of Computer Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "157",
+    "first_name": "Rabindra",
+    "middle_name": "NULL",
+    "last_name": "Bista",
+    "department": "Department of Computer Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "158",
+    "first_name": "Sushil",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Computer Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "159",
+    "first_name": "Manoj",
+    "middle_name": "NULL",
+    "last_name": "Shakya",
+    "department": "Department of Computer Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "160",
+    "first_name": "Pankaj",
+    "middle_name": "Raj",
+    "last_name": "Dawadi",
+    "department": "Department of Computer Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "161",
+    "first_name": "Santosh",
+    "middle_name": "NULL",
+    "last_name": "Khanal",
+    "department": "Department of Computer Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "162",
+    "first_name": "Dhiraj",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Computer Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "163",
+    "first_name": "Sushil",
+    "middle_name": "NULL",
+    "last_name": "Nepal",
+    "department": "Department of Computer Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "164",
+    "first_name": "Sameer",
+    "middle_name": "NULL",
+    "last_name": "Tamrakar",
+    "department": "Department of Computer Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "165",
+    "first_name": "Nabin",
+    "middle_name": "NULL",
+    "last_name": "Ghimire",
+    "department": "Department of Computer Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "166",
+    "first_name": "Rajani",
+    "middle_name": "NULL",
+    "last_name": "Chulyadyo",
+    "department": "Department of Computer Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "167",
+    "first_name": "Prakash",
+    "middle_name": "NULL",
+    "last_name": "Poudyal",
+    "department": "Department of Computer Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "168",
+    "first_name": "Deni",
+    "middle_name": "NULL",
+    "last_name": "Shahi",
+    "department": "Department of Computer Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "169",
+    "first_name": "Praynita",
+    "middle_name": "NULL",
+    "last_name": "Karki",
+    "department": "Department of Computer Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "170",
+    "first_name": "Trailokya",
+    "middle_name": "NULL",
+    "last_name": "Ojha",
+    "department": "Department of Computer Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "171",
+    "first_name": "Amrit",
+    "middle_name": "NULL",
+    "last_name": "Dahal",
+    "department": "Department of Computer Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "172",
+    "first_name": "Subhadra",
+    "middle_name": "NULL",
+    "last_name": "Joshi",
+    "department": "Department of Computer Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "173",
+    "first_name": "Sanjog",
+    "middle_name": "NULL",
+    "last_name": "Sigdel",
+    "department": "Department of Computer Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "174",
+    "first_name": "Suman",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Computer Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "175",
+    "first_name": "Rajendra",
+    "middle_name": "NULL",
+    "last_name": "Banjara",
+    "department": "Department of Computer Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Lab Technician"
+  },
+  {
+    "faculty_id": "176",
+    "first_name": "Laxmi",
+    "middle_name": "NULL",
+    "last_name": "Thapa",
+    "department": "Department of Computer Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Administrative Staff"
+  },
+  {
+    "faculty_id": "177",
+    "first_name": "Chandika",
+    "middle_name": "NULL",
+    "last_name": "Oli",
+    "department": "Department of Computer Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Supporting Staff"
+  },
+  {
+    "faculty_id": "178",
+    "first_name": "Madhav",
+    "middle_name": "Prasad",
+    "last_name": "Pandey",
+    "department": "Department of Electrical and Electronics Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "179",
+    "first_name": "Brajesh",
+    "middle_name": "NULL",
+    "last_name": "Mishra",
+    "department": "Department of Electrical and Electronics Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "180",
+    "first_name": "Anand",
+    "middle_name": "NULL",
+    "last_name": "Gachhadar",
+    "department": "Department of Electrical and Electronics Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "181",
+    "first_name": "Om",
+    "middle_name": "Nath",
+    "last_name": "Acharya",
+    "department": "Department of Electrical and Electronics Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "182",
+    "first_name": "Pramish",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Electrical and Electronics Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "183",
+    "first_name": "Kamal",
+    "middle_name": "NULL",
+    "last_name": "Chapagain",
+    "department": "Department of Electrical and Electronics Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "184",
+    "first_name": "Santosh",
+    "middle_name": "NULL",
+    "last_name": "Parajuli",
+    "department": "Department of Electrical and Electronics Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "185",
+    "first_name": "Samundra",
+    "middle_name": "NULL",
+    "last_name": "Gurung",
+    "department": "Department of Electrical and Electronics Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "186",
+    "first_name": "Bhupendra",
+    "middle_name": "Bimal",
+    "last_name": "Chhetri",
+    "department": "Department of Electrical and Electronics Engineering",
+    "school": "School of Engineering",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "187",
+    "first_name": "Ram",
+    "middle_name": "Kaji",
+    "last_name": "Budhathoki",
+    "department": "Department of Electrical and Electronics Engineering",
+    "school": "School of Engineering",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "188",
+    "first_name": "Brijesh",
+    "middle_name": "NULL",
+    "last_name": "Adhikary",
+    "department": "Department of Electrical and Electronics Engineering",
+    "school": "School of Engineering",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "189",
+    "first_name": "Shailendra",
+    "middle_name": "Kumar",
+    "last_name": "Jha",
+    "department": "Department of Electrical and Electronics Engineering",
+    "school": "School of Engineering",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "190",
+    "first_name": "Diwakar",
+    "middle_name": "NULL",
+    "last_name": "Bista",
+    "department": "Department of Electrical and Electronics Engineering",
+    "school": "School of Engineering",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "191",
+    "first_name": "Anup",
+    "middle_name": "NULL",
+    "last_name": "Thapa",
+    "department": "Department of Electrical and Electronics Engineering",
+    "school": "School of Engineering",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "192",
+    "first_name": "Aayush",
+    "middle_name": "NULL",
+    "last_name": "Bista",
+    "department": "Department of Electrical and Electronics Engineering",
+    "school": "School of Engineering",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "193",
+    "first_name": "Hari",
+    "middle_name": "NULL",
+    "last_name": "Bhusal",
+    "department": "Department of Electrical and Electronics Engineering",
+    "school": "School of Engineering",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "194",
+    "first_name": "Amrit",
+    "middle_name": "NULL",
+    "last_name": "Parajuli",
+    "department": "Department of Electrical and Electronics Engineering",
+    "school": "School of Engineering",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "195",
+    "first_name": "Supriya",
+    "middle_name": "NULL",
+    "last_name": "Pandeya",
+    "department": "Department of Electrical and Electronics Engineering",
+    "school": "School of Engineering",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "196",
+    "first_name": "Sunita",
+    "middle_name": "NULL",
+    "last_name": "Thapa",
+    "department": "Department of Electrical and Electronics Engineering",
+    "school": "School of Engineering",
+    "position": "Technical Support Staff"
+  },
+  {
+    "faculty_id": "197",
+    "first_name": "Uttam",
+    "middle_name": "NULL",
+    "last_name": "Adhikari",
+    "department": "Department of Electrical and Electronics Engineering",
+    "school": "School of Engineering",
+    "position": "Technical Support Staff"
+  },
+  {
+    "faculty_id": "198",
+    "first_name": "Shakul",
+    "middle_name": "NULL",
+    "last_name": "Dhakal",
+    "department": "Department of Electrical and Electronics Engineering",
+    "school": "School of Engineering",
+    "position": "Administrative Staff"
+  },
+  {
+    "faculty_id": "199",
+    "first_name": "Bhola",
+    "middle_name": "NULL",
+    "last_name": "Thapa",
+    "department": "Department of Mechanical Engineering",
+    "school": "School of Engineering",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "200",
+    "first_name": "Bivek",
+    "middle_name": "NULL",
+    "last_name": "Baral",
+    "department": "Department of Mechanical Engineering",
+    "school": "School of Engineering",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "201",
+    "first_name": "Bim",
+    "middle_name": "Prasad",
+    "last_name": "Shrestha",
+    "department": "Department of Mechanical Engineering",
+    "school": "School of Engineering",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "202",
+    "first_name": "Daniel",
+    "middle_name": "NULL",
+    "last_name": "Tuladhar",
+    "department": "Department of Mechanical Engineering",
+    "school": "School of Engineering",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "203",
+    "first_name": "Hari",
+    "middle_name": "Prasad",
+    "last_name": "Neopane",
+    "department": "Department of Mechanical Engineering",
+    "school": "School of Engineering",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "204",
+    "first_name": "Sunil",
+    "middle_name": "Prasad",
+    "last_name": "Lohani",
+    "department": "Department of Mechanical Engineering",
+    "school": "School of Engineering",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "205",
+    "first_name": "Binaya",
+    "middle_name": "NULL",
+    "last_name": "KC",
+    "department": "Department of Mechanical Engineering",
+    "school": "School of Engineering",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "206",
+    "first_name": "Biraj",
+    "middle_name": "Singh",
+    "last_name": "Thapa",
+    "department": "Department of Mechanical Engineering",
+    "school": "School of Engineering",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "207",
+    "first_name": "Krishna",
+    "middle_name": "Prasad",
+    "last_name": "Shrestha",
+    "department": "Department of Mechanical Engineering",
+    "school": "School of Engineering",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "208",
+    "first_name": "Bijendra",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Mechanical Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "209",
+    "first_name": "Chiranjeevi",
+    "middle_name": "NULL",
+    "last_name": "Mahat",
+    "department": "Department of Mechanical Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "210",
+    "first_name": "Gokarna",
+    "middle_name": "NULL",
+    "last_name": "Poudel",
+    "department": "Department of Mechanical Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "211",
+    "first_name": "Hari",
+    "middle_name": "NULL",
+    "last_name": "Dhakal",
+    "department": "Department of Mechanical Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "212",
+    "first_name": "Jahir",
+    "middle_name": "Ahamad",
+    "last_name": "Jibran",
+    "department": "Department of Mechanical Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "213",
+    "first_name": "Malesh",
+    "middle_name": "NULL",
+    "last_name": "Shah",
+    "department": "Department of Mechanical Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "214",
+    "first_name": "Niranjan",
+    "middle_name": "NULL",
+    "last_name": "Bastakoti",
+    "department": "Department of Mechanical Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "215",
+    "first_name": "Pawan",
+    "middle_name": "NULL",
+    "last_name": "Karki",
+    "department": "Department of Mechanical Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "216",
+    "first_name": "Pratisthit",
+    "middle_name": "Lal",
+    "last_name": "Shrestha",
+    "department": "Department of Mechanical Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "217",
+    "first_name": "Ranjit",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Mechanical Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "218",
+    "first_name": "Sailesh",
+    "middle_name": "NULL",
+    "last_name": "Chitrakar",
+    "department": "Department of Mechanical Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "219",
+    "first_name": "Surendra",
+    "middle_name": "NULL",
+    "last_name": "Sujakhu",
+    "department": "Department of Mechanical Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "220",
+    "first_name": "Sirapa",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Mechanical Engineering",
+    "school": "School of Engineering",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "221",
+    "first_name": "Shreeram",
+    "middle_name": "NULL",
+    "last_name": "Thapa",
+    "department": "Department of Mechanical Engineering",
+    "school": "School of Engineering",
+    "position": "Administrative Staff and Lab assistant"
+  },
+  {
+    "faculty_id": "222",
+    "first_name": "Pooja",
+    "middle_name": "NULL",
+    "last_name": "Karki",
+    "department": "Department of Mechanical Engineering",
+    "school": "School of Engineering",
+    "position": "Administrative Staff and Lab assistant"
+  },
+  {
+    "faculty_id": "223",
+    "first_name": "Reshma",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Geomatics Engineering",
+    "school": "School of Engineering",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "224",
+    "first_name": "Subash",
+    "middle_name": "NULL",
+    "last_name": "Ghimire",
+    "department": "Department of Geomatics Engineering",
+    "school": "School of Engineering",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "225",
+    "first_name": "Uma",
+    "middle_name": "Shankar",
+    "last_name": "Panday",
+    "department": "Department of Geomatics Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "226",
+    "first_name": "Anish",
+    "middle_name": "NULL",
+    "last_name": "Bhandari",
+    "department": "Department of Geomatics Engineering",
+    "school": "School of Engineering",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "227",
+    "first_name": "Digvijaya",
+    "middle_name": "NULL",
+    "last_name": "Paudel",
+    "department": "Department of Geomatics Engineering",
+    "school": "School of Engineering",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "228",
+    "first_name": "Namuna",
+    "middle_name": "NULL",
+    "last_name": "Nyaupane",
+    "department": "Department of Geomatics Engineering",
+    "school": "School of Engineering",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "229",
+    "first_name": "Sujan",
+    "middle_name": "NULL",
+    "last_name": "Subedi",
+    "department": "Department of Geomatics Engineering",
+    "school": "School of Engineering",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "230",
+    "first_name": "Pragya",
+    "middle_name": "NULL",
+    "last_name": "Pant",
+    "department": "Department of Geomatics Engineering",
+    "school": "School of Engineering",
+    "position": "Teaching Assistant"
+  },
+  {
+    "faculty_id": "231",
+    "first_name": "Pragya",
+    "middle_name": "NULL",
+    "last_name": "Pant",
+    "department": "Department of Geomatics Engineering",
+    "school": "School of Engineering",
+    "position": "Teaching Assistant"
+  },
+  {
+    "faculty_id": "232",
+    "first_name": "Tulasa",
+    "middle_name": "NULL",
+    "last_name": "Raut",
+    "department": "Department of Geomatics Engineering",
+    "school": "School of Engineering",
+    "position": "Administrative Staff"
+  },
+  {
+    "faculty_id": "233",
+    "first_name": "Rashmi",
+    "middle_name": "NULL",
+    "last_name": "Manandhar",
+    "department": "Department of Architecture",
+    "school": "School of Engineering",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "234",
+    "first_name": "Kopila",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Architecture",
+    "school": "School of Engineering",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "235",
+    "first_name": "Sunibha",
+    "middle_name": "NULL",
+    "last_name": "Kayastha",
+    "department": "Department of Architecture",
+    "school": "School of Engineering",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "236",
+    "first_name": "Dip",
+    "middle_name": "NULL",
+    "last_name": "Pandey",
+    "department": "Department of Architecture",
+    "school": "School of Engineering",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "237",
+    "first_name": "Bindu",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Architecture",
+    "school": "School of Engineering",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "238",
+    "first_name": "Buddha",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Architecture",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "239",
+    "first_name": "Bishwodev",
+    "middle_name": "NULL",
+    "last_name": "Bhattarai",
+    "department": "Department of Architecture",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "240",
+    "first_name": "Salina",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Architecture",
+    "school": "School of Engineering",
+    "position": "Teaching Assistant"
+  },
+  {
+    "faculty_id": "241",
+    "first_name": "Shreejana",
+    "middle_name": "NULL",
+    "last_name": "Prajapati",
+    "department": "Department of Architecture",
+    "school": "School of Engineering",
+    "position": "Administrative Staff"
+  },
+  {
+    "faculty_id": "242",
+    "first_name": "Kundan",
+    "middle_name": "Lal",
+    "last_name": "Shrestha",
+    "department": "Department of Chemical Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "243",
+    "first_name": "Bishnu",
+    "middle_name": "NULL",
+    "last_name": "Pandey",
+    "department": "Department of Chemical Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "244",
+    "first_name": "Bibek",
+    "middle_name": "NULL",
+    "last_name": "Uprety",
+    "department": "Department of Chemical Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "245",
+    "first_name": "Balram",
+    "middle_name": "NULL",
+    "last_name": "Pokhrel",
+    "department": "Department of Chemical Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "246",
+    "first_name": "Babi",
+    "middle_name": "Kumar",
+    "last_name": "Kafle",
+    "department": "Department of Chemical Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "247",
+    "first_name": "Dilip",
+    "middle_name": "Kumar",
+    "last_name": "Rajak",
+    "department": "Department of Chemical Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "248",
+    "first_name": "Prakash",
+    "middle_name": "NULL",
+    "last_name": "Lamichhane",
+    "department": "Department of Chemical Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "249",
+    "first_name": "Prem",
+    "middle_name": "Narayan",
+    "last_name": "Paudel",
+    "department": "Department of Chemical Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "250",
+    "first_name": "Rita",
+    "middle_name": "NULL",
+    "last_name": "Bhatta",
+    "department": "Department of Chemical Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "251",
+    "first_name": "Rajib",
+    "middle_name": "Kumar",
+    "last_name": "Shrestha",
+    "department": "Department of Chemical Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "252",
+    "first_name": "Rudra",
+    "middle_name": "Prasad",
+    "last_name": "Upreti",
+    "department": "Department of Chemical Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "253",
+    "first_name": "Chandika",
+    "middle_name": "Prasad",
+    "last_name": "Bhatta",
+    "department": "Department of Chemical Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "254",
+    "first_name": "Binita",
+    "middle_name": "NULL",
+    "last_name": "Thapa",
+    "department": "Department of Chemical Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Administration"
+  },
+  {
+    "faculty_id": "255",
+    "first_name": "Pancharam",
+    "middle_name": "NULL",
+    "last_name": "Tamang",
+    "department": "Department of Chemical Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Lab Attendant"
+  },
+  {
+    "faculty_id": "256",
+    "first_name": "Manita",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Chemical Science and Engineering",
+    "school": "School of Engineering",
+    "position": "Lab Attendant"
+  },
+  {
+    "faculty_id": "257",
+    "first_name": "Manish",
+    "middle_name": "NULL",
+    "last_name": "Prakash",
+    "department": "Department of Civil Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "258",
+    "first_name": "Ramesh",
+    "middle_name": "Kumar",
+    "last_name": "Maskey",
+    "department": "Department of Civil Engineering",
+    "school": "School of Engineering",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "259",
+    "first_name": "Prachand",
+    "middle_name": "Man",
+    "last_name": "Pradhan",
+    "department": "Department of Civil Engineering",
+    "school": "School of Engineering",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "260",
+    "first_name": "Shyam",
+    "middle_name": "Sundar",
+    "last_name": "Khadka",
+    "department": "Department of Civil Engineering",
+    "school": "School of Engineering",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "261",
+    "first_name": "Ramesh",
+    "middle_name": "NULL",
+    "last_name": "Adhikari",
+    "department": "Department of Civil Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "262",
+    "first_name": "Suman",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Civil Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "263",
+    "first_name": "Santosh",
+    "middle_name": "NULL",
+    "last_name": "Chaudhary",
+    "department": "Department of Civil Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "264",
+    "first_name": "Kameshwar",
+    "middle_name": "NULL",
+    "last_name": "Sahani",
+    "department": "Department of Civil Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "265",
+    "first_name": "Mahesh",
+    "middle_name": "Raj",
+    "last_name": "Bhatt",
+    "department": "Department of Civil Engineering",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "266",
+    "first_name": "Raju",
+    "middle_name": "NULL",
+    "last_name": "Bhele",
+    "department": "Department of Civil Engineering",
+    "school": "School of Engineering",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "267",
+    "first_name": "Shiva",
+    "middle_name": "Prasad",
+    "last_name": "Timalsina",
+    "department": "Department of Civil Engineering",
+    "school": "School of Engineering",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "268",
+    "first_name": "Umesh",
+    "middle_name": "Jung",
+    "last_name": "Thapa",
+    "department": "Department of Civil Engineering",
+    "school": "School of Engineering",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "269",
+    "first_name": "Sudip",
+    "middle_name": "NULL",
+    "last_name": "Bajgain",
+    "department": "Department of Civil Engineering",
+    "school": "School of Engineering",
+    "position": "Teaching Assistant"
+  },
+  {
+    "faculty_id": "270",
+    "first_name": "Nripesh",
+    "middle_name": "NULL",
+    "last_name": "Dhital",
+    "department": "Department of Civil Engineering",
+    "school": "School of Engineering",
+    "position": "Teaching Assistant"
+  },
+  {
+    "faculty_id": "271",
+    "first_name": "Shivaji",
+    "middle_name": "NULL",
+    "last_name": "Dhakal",
+    "department": "Department of Civil Engineering",
+    "school": "School of Engineering",
+    "position": "Administrative Staff"
+  },
+  {
+    "faculty_id": "272",
+    "first_name": "Shyam",
+    "middle_name": "NULL",
+    "last_name": "Mahaju",
+    "department": "Department of Civil Engineering",
+    "school": "School of Engineering",
+    "position": "Technician"
+  },
+  {
+    "faculty_id": "273",
+    "first_name": "Yagya",
+    "middle_name": "Raj",
+    "last_name": "Pandeya",
+    "department": "Department of Artificial intelligence",
+    "school": "School of Engineering",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "274",
+    "first_name": "Sunil",
+    "middle_name": "NULL",
+    "last_name": "Regmi",
+    "department": "Department of Artificial intelligence",
+    "school": "School of Engineering",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "275",
+    "first_name": "Shubodha",
+    "middle_name": "NULL",
+    "last_name": "Acharya",
+    "department": "Department of Artificial intelligence",
+    "school": "School of Engineering",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "276",
+    "first_name": "Sandep",
+    "middle_name": "NULL",
+    "last_name": "Gupta",
+    "department": "Department of Artificial intelligence",
+    "school": "School of Engineering",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "277",
+    "first_name": "Dipak",
+    "middle_name": "Babu",
+    "last_name": "Amgain",
+    "department": "Department of Artificial intelligence",
+    "school": "School of Engineering",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "278",
+    "first_name": "Sandesh",
+    "middle_name": "NULL",
+    "last_name": "Thakuri",
+    "department": "Department of Artificial intelligence",
+    "school": "School of Engineering",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "279",
+    "first_name": "Pramod",
+    "middle_name": "NULL",
+    "last_name": "Tiwari",
+    "department": "Department of Artificial intelligence",
+    "school": "School of Engineering",
+    "position": "Admin/Librarian"
+  },
+  {
+    "faculty_id": "280",
+    "first_name": "Bibek",
+    "middle_name": "NULL",
+    "last_name": "Timalsina",
+    "department": "Department of Artificial intelligence",
+    "school": "School of Engineering",
+    "position": "Lab Assistant"
+  },
+  {
+    "faculty_id": "281",
+    "first_name": "Ramchandra",
+    "middle_name": "NULL",
+    "last_name": "Oli",
+    "department": "Department of Artificial intelligence",
+    "school": "School of Engineering",
+    "position": "Admin Staff"
+  },
+  {
+    "faculty_id": "282",
+    "first_name": "Amit",
+    "middle_name": "NULL",
+    "last_name": "Pandey",
+    "department": "Department of Artificial intelligence",
+    "school": "School of Engineering",
+    "position": "Admin Staff"
+  },
+  {
+    "faculty_id": "283",
+    "first_name": "Bijay",
+    "middle_name": "NULL",
+    "last_name": "K.C.",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "284",
+    "first_name": "Achyut",
+    "middle_name": "Prasad",
+    "last_name": "Wagle",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "285",
+    "first_name": "Binod",
+    "middle_name": "Krishna",
+    "last_name": "Shrestha",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "286",
+    "first_name": "Biswo",
+    "middle_name": "Nath",
+    "last_name": "Poudel",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "287",
+    "first_name": "Khagendra",
+    "middle_name": "NULL",
+    "last_name": "Acharya",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "288",
+    "first_name": "Jyoti",
+    "middle_name": "Regmi",
+    "last_name": "Adhikary",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "289",
+    "first_name": "Sabin",
+    "middle_name": "Bikram",
+    "last_name": "Panta",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "290",
+    "first_name": "Purna",
+    "middle_name": "Bahadur",
+    "last_name": "Nepali",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "291",
+    "first_name": "Arjun",
+    "middle_name": "Kumar",
+    "last_name": "Shrestha",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "292",
+    "first_name": "Eak",
+    "middle_name": "Prasad",
+    "last_name": "Duwadi",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "293",
+    "first_name": "Prabina",
+    "middle_name": "NULL",
+    "last_name": "Rajbhandari",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "294",
+    "first_name": "Bal",
+    "middle_name": "Krishna",
+    "last_name": "Khadka",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "295",
+    "first_name": "Sunil",
+    "middle_name": "Kumar",
+    "last_name": "Jha",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "296",
+    "first_name": "Pawan",
+    "middle_name": "Kumar",
+    "last_name": "Jha",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "297",
+    "first_name": "Hari",
+    "middle_name": "Gopal",
+    "last_name": "Risal",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "298",
+    "first_name": "Binayak",
+    "middle_name": "NULL",
+    "last_name": "Malla",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "299",
+    "first_name": "Sabina",
+    "middle_name": "Baniya C.",
+    "last_name": "Pokhrel",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "300",
+    "first_name": "Sanjaya",
+    "middle_name": "NULL",
+    "last_name": "Pudasaini",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "301",
+    "first_name": "Dipesh",
+    "middle_name": "NULL",
+    "last_name": "Karki",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "302",
+    "first_name": "Umesh",
+    "middle_name": "NULL",
+    "last_name": "Rajopadhyaya",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "303",
+    "first_name": "Roshee",
+    "middle_name": "NULL",
+    "last_name": "Lamichhane",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "304",
+    "first_name": "Sudana",
+    "middle_name": "NULL",
+    "last_name": "Ale",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "305",
+    "first_name": "Srawan",
+    "middle_name": "Kumar",
+    "last_name": "KC",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "306",
+    "first_name": "Nisha",
+    "middle_name": "NULL",
+    "last_name": "Adhikari",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "307",
+    "first_name": "Rajesh",
+    "middle_name": "NULL",
+    "last_name": "Sharma",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "308",
+    "first_name": "Binayak",
+    "middle_name": "NULL",
+    "last_name": "Chhetri",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "309",
+    "first_name": "Bhawana",
+    "middle_name": "NULL",
+    "last_name": "Tamrakar",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "310",
+    "first_name": "Binayak",
+    "middle_name": "Kumar",
+    "last_name": "Mishra",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "311",
+    "first_name": "Prity",
+    "middle_name": "NULL",
+    "last_name": "Atal",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "312",
+    "first_name": "Bibhu",
+    "middle_name": "Ratna",
+    "last_name": "Tuladhar",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "313",
+    "first_name": "Ramesh",
+    "middle_name": "NULL",
+    "last_name": "Ghimire",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "314",
+    "first_name": "Punya",
+    "middle_name": "Prasad",
+    "last_name": "Koirala",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "315",
+    "first_name": "Yash",
+    "middle_name": "Raj",
+    "last_name": "Lamsal",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "316",
+    "first_name": "Haris",
+    "middle_name": "C.",
+    "last_name": "Adhikari",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "317",
+    "first_name": "Durga",
+    "middle_name": "Prasad",
+    "last_name": "Dhakal",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "318",
+    "first_name": "Narayan",
+    "middle_name": "Prasad",
+    "last_name": "Niroula",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "319",
+    "first_name": "Prabal",
+    "middle_name": "NULL",
+    "last_name": "Sapkota",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "320",
+    "first_name": "Birendra",
+    "middle_name": "NULL",
+    "last_name": "Vaidya",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "321",
+    "first_name": "Asha",
+    "middle_name": "Thapa",
+    "last_name": "Magar",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "322",
+    "first_name": "Ajaya",
+    "middle_name": "NULL",
+    "last_name": "Mishra",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "323",
+    "first_name": "Devi",
+    "middle_name": "Prasad",
+    "last_name": "Bedari",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "324",
+    "first_name": "Anupama",
+    "middle_name": "Shrestha",
+    "last_name": "Panta",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "325",
+    "first_name": "Arun",
+    "middle_name": "NULL",
+    "last_name": "Basnet",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "326",
+    "first_name": "Bimesh",
+    "middle_name": "Man",
+    "last_name": "Panti",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "327",
+    "first_name": "Birat",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "328",
+    "first_name": "Ms.",
+    "middle_name": "NULL",
+    "last_name": "Chenying",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "329",
+    "first_name": "Hem",
+    "middle_name": "Raj",
+    "last_name": "Pokhrel",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "330",
+    "first_name": "Jayakar",
+    "middle_name": "NULL",
+    "last_name": "Vaidya",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "331",
+    "first_name": "Jayan",
+    "middle_name": "NULL",
+    "last_name": "Nyachhyon",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "332",
+    "first_name": "Kalyan",
+    "middle_name": "Raj",
+    "last_name": "Sharma",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "333",
+    "first_name": "Ramesh",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "334",
+    "first_name": "Rameshore",
+    "middle_name": "NULL",
+    "last_name": "Khanal",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "335",
+    "first_name": "Radhe",
+    "middle_name": "Shyam",
+    "last_name": "Pradhan",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "336",
+    "first_name": "Rita",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "337",
+    "first_name": "Sharan",
+    "middle_name": "Shankar",
+    "last_name": "Paudel",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "338",
+    "first_name": "Subodh",
+    "middle_name": "Sharma",
+    "last_name": "Sigdel",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "339",
+    "first_name": "Sujit",
+    "middle_name": "NULL",
+    "last_name": "Mundul",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "340",
+    "first_name": "Tina",
+    "middle_name": "Rawal",
+    "last_name": "Saud",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "341",
+    "first_name": "Deeptangshu",
+    "middle_name": "NULL",
+    "last_name": "Thapa",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "342",
+    "first_name": "Nara",
+    "middle_name": "Hari",
+    "last_name": "Dhakal",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "343",
+    "first_name": "Yamal",
+    "middle_name": "Chandra",
+    "last_name": "Rajbhandary",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "344",
+    "first_name": "Shashi",
+    "middle_name": "Raj",
+    "last_name": "Bajracharya",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "345",
+    "first_name": "Yogesh",
+    "middle_name": "NULL",
+    "last_name": "Satyal",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "346",
+    "first_name": "Prakash",
+    "middle_name": "NULL",
+    "last_name": "Aryal",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "347",
+    "first_name": "Sujan",
+    "middle_name": "Raja",
+    "last_name": "Shrestha",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "348",
+    "first_name": "Raunak",
+    "middle_name": "NULL",
+    "last_name": "Maskay",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "349",
+    "first_name": "Dipak",
+    "middle_name": "Prasad",
+    "last_name": "Bastola",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "350",
+    "first_name": "Sameer",
+    "middle_name": "NULL",
+    "last_name": "Tuladhar",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "351",
+    "first_name": "Vivek",
+    "middle_name": "NULL",
+    "last_name": "Rana",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "352",
+    "first_name": "Suresh",
+    "middle_name": "Kumar",
+    "last_name": "Pradhan",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Administrative Officer"
+  },
+  {
+    "faculty_id": "353",
+    "first_name": "Maheshwor",
+    "middle_name": "NULL",
+    "last_name": "Prajapati",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Officer"
+  },
+  {
+    "faculty_id": "354",
+    "first_name": "Arun",
+    "middle_name": "Kumar",
+    "last_name": "Deoju",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Finance Officer"
+  },
+  {
+    "faculty_id": "355",
+    "first_name": "Sumod",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Office Assistant"
+  },
+  {
+    "faculty_id": "356",
+    "first_name": "Baikuntha",
+    "middle_name": "Prasad",
+    "last_name": "Phuyal",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Office Assistant"
+  },
+  {
+    "faculty_id": "357",
+    "first_name": "Geeta",
+    "middle_name": "NULL",
+    "last_name": "Phuyal",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Office Assistant"
+  },
+  {
+    "faculty_id": "358",
+    "first_name": "Sharmila",
+    "middle_name": "NULL",
+    "last_name": "Adhikari",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Office Assistant"
+  },
+  {
+    "faculty_id": "359",
+    "first_name": "Ram",
+    "middle_name": "Babu",
+    "last_name": "Yadav",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Office Assistant"
+  },
+  {
+    "faculty_id": "360",
+    "first_name": "Geeta",
+    "middle_name": "NULL",
+    "last_name": "Karki",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Office Assistant"
+  },
+  {
+    "faculty_id": "361",
+    "first_name": "Ranjan",
+    "middle_name": "NULL",
+    "last_name": "Prajapati",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Office Assistant"
+  },
+  {
+    "faculty_id": "362",
+    "first_name": "Narayan",
+    "middle_name": "NULL",
+    "last_name": "Mahato",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Office Assistant"
+  },
+  {
+    "faculty_id": "363",
+    "first_name": "Bhaba",
+    "middle_name": "Sagar",
+    "last_name": "Thapa",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Attendant (A1)"
+  },
+  {
+    "faculty_id": "364",
+    "first_name": "Dipa",
+    "middle_name": "Thapa",
+    "last_name": "Magar",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Attendant (A1)"
+  },
+  {
+    "faculty_id": "365",
+    "first_name": "Laxman",
+    "middle_name": "NULL",
+    "last_name": "Maharjan",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Attendant (A1)"
+  },
+  {
+    "faculty_id": "366",
+    "first_name": "Akali",
+    "middle_name": "NULL",
+    "last_name": "Maharjan",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Attendant (A1)"
+  },
+  {
+    "faculty_id": "367",
+    "first_name": "Rajita",
+    "middle_name": "NULL",
+    "last_name": "Dhola",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Attendant (A1)"
+  },
+  {
+    "faculty_id": "368",
+    "first_name": "Geeta",
+    "middle_name": "NULL",
+    "last_name": "Maharjan",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Attendant (A1)"
+  },
+  {
+    "faculty_id": "369",
+    "first_name": "Ram",
+    "middle_name": "Sharan",
+    "last_name": "Thapa",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Attendant (A1)"
+  },
+  {
+    "faculty_id": "370",
+    "first_name": "Ishwora",
+    "middle_name": "NULL",
+    "last_name": "Janakarmi",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Attendant (A1)"
+  },
+  {
+    "faculty_id": "371",
+    "first_name": "Dhan",
+    "middle_name": "Bahadur",
+    "last_name": "Niraula",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Driver"
+  },
+  {
+    "faculty_id": "372",
+    "first_name": "Shiva",
+    "middle_name": "NULL",
+    "last_name": "Giri",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Associate Dean"
+  },
+  {
+    "faculty_id": "373",
+    "first_name": "Bipin",
+    "middle_name": "NULL",
+    "last_name": "Adhikari",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "374",
+    "first_name": "Shiva",
+    "middle_name": "Prasad",
+    "last_name": "Paudel",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "375",
+    "first_name": "Anup",
+    "middle_name": "Kumar",
+    "last_name": "Acharya",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Senior Faculty"
+  },
+  {
+    "faculty_id": "376",
+    "first_name": "Bishal",
+    "middle_name": "NULL",
+    "last_name": "Khanal",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Senior Faculty"
+  },
+  {
+    "faculty_id": "377",
+    "first_name": "Sombhojen",
+    "middle_name": "NULL",
+    "last_name": "Limbu",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "378",
+    "first_name": "Santosh",
+    "middle_name": "NULL",
+    "last_name": "KC",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "379",
+    "first_name": "Shiva",
+    "middle_name": "NULL",
+    "last_name": "Bisangkhe",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "380",
+    "first_name": "Ajaya",
+    "middle_name": "Kumar",
+    "last_name": "Shah",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "381",
+    "first_name": "Sanju",
+    "middle_name": "NULL",
+    "last_name": "Adhikary",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "382",
+    "first_name": "Ram",
+    "middle_name": "Lal",
+    "last_name": "Tolange",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "383",
+    "first_name": "Shuvkar",
+    "middle_name": "NULL",
+    "last_name": "Regmi",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "384",
+    "first_name": "Krishna",
+    "middle_name": "Sundar",
+    "last_name": "Thapa",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "385",
+    "first_name": "Suraj",
+    "middle_name": "NULL",
+    "last_name": "KC",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "386",
+    "first_name": "Padma",
+    "middle_name": "NULL",
+    "last_name": "Rijal",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "387",
+    "first_name": "Bhanu",
+    "middle_name": "NULL",
+    "last_name": "Wagle",
+    "department": "NULL",
+    "school": "School of Management",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "388",
+    "first_name": "Anup",
+    "middle_name": "Raj",
+    "last_name": "Upreti",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "389",
+    "first_name": "Ananda",
+    "middle_name": "Mohan",
+    "last_name": "Bhattarai",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Visiting Professor"
+  },
+  {
+    "faculty_id": "390",
+    "first_name": "Surya",
+    "middle_name": "NULL",
+    "last_name": "Dhungel",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "391",
+    "first_name": "Surya",
+    "middle_name": "Raj",
+    "last_name": "Acharya",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "392",
+    "first_name": "Bharatraj",
+    "middle_name": "NULL",
+    "last_name": "Gautam",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "393",
+    "first_name": "Narayan",
+    "middle_name": "NULL",
+    "last_name": "Baskota",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "394",
+    "first_name": "Krishna",
+    "middle_name": "NULL",
+    "last_name": "KC",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "395",
+    "first_name": "Bishnu",
+    "middle_name": "NULL",
+    "last_name": "Adhikari",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "396",
+    "first_name": "Madhab",
+    "middle_name": "Raj",
+    "last_name": "Ghimire",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "397",
+    "first_name": "Chandra",
+    "middle_name": "Kumar",
+    "last_name": "Subedi",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "398",
+    "first_name": "Nabin",
+    "middle_name": "NULL",
+    "last_name": "Dahal",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "399",
+    "first_name": "Puspa",
+    "middle_name": "NULL",
+    "last_name": "Priya",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "400",
+    "first_name": "Anil",
+    "middle_name": "NULL",
+    "last_name": "Upadhaya",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "401",
+    "first_name": "Nir",
+    "middle_name": "Bahadur",
+    "last_name": "Pakhren",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "402",
+    "first_name": "Saraswoti",
+    "middle_name": "NULL",
+    "last_name": "Shah",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "403",
+    "first_name": "Rubin",
+    "middle_name": "NULL",
+    "last_name": "Manandhar",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "404",
+    "first_name": "Akanchya",
+    "middle_name": "NULL",
+    "last_name": "Regmi",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "405",
+    "first_name": "Netra",
+    "middle_name": "NULL",
+    "last_name": "Acharya",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "406",
+    "first_name": "Prabika",
+    "middle_name": "NULL",
+    "last_name": "Sintakala",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Visiting Faculty"
+  },
+  {
+    "faculty_id": "407",
+    "first_name": "Surendra",
+    "middle_name": "NULL",
+    "last_name": "KC",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Manager"
+  },
+  {
+    "faculty_id": "408",
+    "first_name": "Sarita",
+    "middle_name": "Devi Byanju",
+    "last_name": "Shrestha",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Officer"
+  },
+  {
+    "faculty_id": "409",
+    "first_name": "Shyam",
+    "middle_name": "Kumar",
+    "last_name": "Tolange",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Officer"
+  },
+  {
+    "faculty_id": "410",
+    "first_name": "Arjun",
+    "middle_name": "Thapa",
+    "last_name": "Magar",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Accountant"
+  },
+  {
+    "faculty_id": "411",
+    "first_name": "Rishav",
+    "middle_name": "NULL",
+    "last_name": "Dhungel",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Assistant"
+  },
+  {
+    "faculty_id": "412",
+    "first_name": "Shyam",
+    "middle_name": "Krishna",
+    "last_name": "Nagarkoti",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Niyamit Sewa"
+  },
+  {
+    "faculty_id": "413",
+    "first_name": "Saraswoti",
+    "middle_name": "NULL",
+    "last_name": "Nepal",
+    "department": "NULL",
+    "school": "School of Law",
+    "position": "Attendant"
+  },
+  {
+    "faculty_id": "414",
+    "first_name": "Panna",
+    "middle_name": "NULL",
+    "last_name": "Thapa",
+    "department": "Department of Pharmacy",
+    "school": "School of Science",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "415",
+    "first_name": "Rajani",
+    "middle_name": "NULL",
+    "last_name": "Shakya",
+    "department": "Department of Pharmacy",
+    "school": "School of Science",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "416",
+    "first_name": "Uttam",
+    "middle_name": "NULL",
+    "last_name": "Budhathoki",
+    "department": "Department of Pharmacy",
+    "school": "School of Science",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "417",
+    "first_name": "Rajendra",
+    "middle_name": "NULL",
+    "last_name": "Gyawali",
+    "department": "Department of Pharmacy",
+    "school": "School of Science",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "418",
+    "first_name": "Rajendra",
+    "middle_name": "NULL",
+    "last_name": "Joshi",
+    "department": "Department of Pharmacy",
+    "school": "School of Science",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "419",
+    "first_name": "Rajan",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Pharmacy",
+    "school": "School of Science",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "420",
+    "first_name": "Ashwinee",
+    "middle_name": "Kumar",
+    "last_name": "Shrestha",
+    "department": "Department of Pharmacy",
+    "school": "School of Science",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "421",
+    "first_name": "Rojeena",
+    "middle_name": "Koju",
+    "last_name": "Shrestha",
+    "department": "Department of Pharmacy",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "422",
+    "first_name": "Badri",
+    "middle_name": "NULL",
+    "last_name": "KC",
+    "department": "Department of Pharmacy",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "423",
+    "first_name": "Swastika",
+    "middle_name": "NULL",
+    "last_name": "Hada",
+    "department": "Department of Pharmacy",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "424",
+    "first_name": "Sweta",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Pharmacy",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "425",
+    "first_name": "Joshna",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Pharmacy",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "426",
+    "first_name": "Durga",
+    "middle_name": "NULL",
+    "last_name": "Bista",
+    "department": "Department of Pharmacy",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "427",
+    "first_name": "Shailendra",
+    "middle_name": "NULL",
+    "last_name": "Shakya",
+    "department": "Department of Pharmacy",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "428",
+    "first_name": "Anup",
+    "middle_name": "NULL",
+    "last_name": "Luitel",
+    "department": "Department of Pharmacy",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "429",
+    "first_name": "Ramakanta",
+    "middle_name": "NULL",
+    "last_name": "Lamichhane",
+    "department": "Department of Pharmacy",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "430",
+    "first_name": "Lalit",
+    "middle_name": "Mohan",
+    "last_name": "Pant",
+    "department": "Department of Pharmacy",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "431",
+    "first_name": "Sambhu",
+    "middle_name": "NULL",
+    "last_name": "Raya",
+    "department": "Department of Pharmacy",
+    "school": "School of Science",
+    "position": "Non-Teaching Staff"
+  },
+  {
+    "faculty_id": "432",
+    "first_name": "Prem",
+    "middle_name": "Kumari",
+    "last_name": "Pokheral",
+    "department": "Department of Pharmacy",
+    "school": "School of Science",
+    "position": "Non-Teaching Staff"
+  },
+  {
+    "faculty_id": "433",
+    "first_name": "Pankaj",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Pharmacy",
+    "school": "School of Science",
+    "position": "Non-Teaching Staff"
+  },
+  {
+    "faculty_id": "434",
+    "first_name": "Rojina",
+    "middle_name": "NULL",
+    "last_name": "Khusu",
+    "department": "Department of Pharmacy",
+    "school": "School of Science",
+    "position": "Non-Teaching Staff"
+  },
+  {
+    "faculty_id": "435",
+    "first_name": "Shiva",
+    "middle_name": "Ram",
+    "last_name": "Neupane",
+    "department": "Department of Pharmacy",
+    "school": "School of Science",
+    "position": "Non-Teaching Staff"
+  },
+  {
+    "faculty_id": "436",
+    "first_name": "Deepak",
+    "middle_name": "Prasad",
+    "last_name": "Subedi",
+    "department": "Department of Physics",
+    "school": "School of Science",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "437",
+    "first_name": "Ujjwal",
+    "middle_name": "Man",
+    "last_name": "Joshi",
+    "department": "Department of Physics",
+    "school": "School of Science",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "438",
+    "first_name": "Shanker",
+    "middle_name": "Prasad",
+    "last_name": "Chimouriya",
+    "department": "Department of Physics",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "439",
+    "first_name": "Dipendra",
+    "middle_name": "NULL",
+    "last_name": "Hamal",
+    "department": "Department of Physics",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "440",
+    "first_name": "Rajendra",
+    "middle_name": "NULL",
+    "last_name": "Adhikari",
+    "department": "Department of Physics",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "441",
+    "first_name": "Gobinda",
+    "middle_name": "Prasad",
+    "last_name": "Panta",
+    "department": "Department of Physics",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "442",
+    "first_name": "Keshav",
+    "middle_name": "Raj",
+    "last_name": "Sigdel",
+    "department": "Department of Physics",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "443",
+    "first_name": "Ganesh",
+    "middle_name": "Kuwar",
+    "last_name": "Chhettri",
+    "department": "Department of Physics",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "444",
+    "first_name": "Manoj",
+    "middle_name": "NULL",
+    "last_name": "Pandey",
+    "department": "Department of Physics",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "445",
+    "first_name": "Rajesh",
+    "middle_name": "Rana",
+    "last_name": "Magar",
+    "department": "Department of Physics",
+    "school": "School of Science",
+    "position": "Lab Assistant"
+  },
+  {
+    "faculty_id": "446",
+    "first_name": "Ganga",
+    "middle_name": "NULL",
+    "last_name": "Thapa",
+    "department": "Department of Physics",
+    "school": "School of Science",
+    "position": "Lab Assistant"
+  },
+  {
+    "faculty_id": "447",
+    "first_name": "Dhurva",
+    "middle_name": "P.",
+    "last_name": "Gauchan",
+    "department": "Department of Biotechnology",
+    "school": "School of Science",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "448",
+    "first_name": "Janardan",
+    "middle_name": "NULL",
+    "last_name": "Lamichhane",
+    "department": "Department of Biotechnology",
+    "school": "School of Science",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "449",
+    "first_name": "Subodh",
+    "middle_name": "K.",
+    "last_name": "Upadhyaya",
+    "department": "Department of Biotechnology",
+    "school": "School of Science",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "450",
+    "first_name": "Sangita",
+    "middle_name": "NULL",
+    "last_name": "Shakya",
+    "department": "Department of Biotechnology",
+    "school": "School of Science",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "451",
+    "first_name": "Bhupal",
+    "middle_name": "G.",
+    "last_name": "Shrestha",
+    "department": "Department of Biotechnology",
+    "school": "School of Science",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "452",
+    "first_name": "Parash",
+    "middle_name": "Mani",
+    "last_name": "Timilsina",
+    "department": "Department of Biotechnology",
+    "school": "School of Science",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "453",
+    "first_name": "Ashna",
+    "middle_name": "NULL",
+    "last_name": "Dhakal",
+    "department": "Department of Biotechnology",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "454",
+    "first_name": "Hitesh",
+    "middle_name": "K",
+    "last_name": "Bhattarai",
+    "department": "Department of Biotechnology",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "455",
+    "first_name": "Amol",
+    "middle_name": "NULL",
+    "last_name": "Dahal",
+    "department": "Department of Biotechnology",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "456",
+    "first_name": "Simon",
+    "middle_name": "K.",
+    "last_name": "Shrestha",
+    "department": "Department of Biotechnology",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "457",
+    "first_name": "Bishnu",
+    "middle_name": "Maya",
+    "last_name": "K.C.",
+    "department": "Department of Biotechnology",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "458",
+    "first_name": "Amrita",
+    "middle_name": "NULL",
+    "last_name": "Acharya",
+    "department": "Department of Biotechnology",
+    "school": "School of Science",
+    "position": "Teaching Assistant"
+  },
+  {
+    "faculty_id": "459",
+    "first_name": "Shristina",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Biotechnology",
+    "school": "School of Science",
+    "position": "Teaching Assistant"
+  },
+  {
+    "faculty_id": "460",
+    "first_name": "Upama",
+    "middle_name": "NULL",
+    "last_name": "Nyaupane",
+    "department": "Department of Biotechnology",
+    "school": "School of Science",
+    "position": "Teaching Assistant"
+  },
+  {
+    "faculty_id": "461",
+    "first_name": "Nimu",
+    "middle_name": "NULL",
+    "last_name": "Karmacharya",
+    "department": "Department of Biotechnology",
+    "school": "School of Science",
+    "position": "Lab & Office Staff"
+  },
+  {
+    "faculty_id": "462",
+    "first_name": "Sunil",
+    "middle_name": "NULL",
+    "last_name": "Maharjan",
+    "department": "Department of Biotechnology",
+    "school": "School of Science",
+    "position": "Lab & Office Staff"
+  },
+  {
+    "faculty_id": "463",
+    "first_name": "Radhika",
+    "middle_name": "NULL",
+    "last_name": "Pun",
+    "department": "Department of Biotechnology",
+    "school": "School of Science",
+    "position": "Lab & Office Staff"
+  },
+  {
+    "faculty_id": "464",
+    "first_name": "Subodh",
+    "middle_name": "NULL",
+    "last_name": "Sharma",
+    "department": "Department of Environmental Science and Engineering",
+    "school": "School of Science",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "465",
+    "first_name": "Bed",
+    "middle_name": "Mani",
+    "last_name": "Dahal",
+    "department": "Department of Environmental Science and Engineering",
+    "school": "School of Science",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "466",
+    "first_name": "Kumud",
+    "middle_name": "Raj",
+    "last_name": "Kafle",
+    "department": "Department of Environmental Science and Engineering",
+    "school": "School of Science",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "467",
+    "first_name": "Kundan",
+    "middle_name": "Lal",
+    "last_name": "Shrestha",
+    "department": "Department of Environmental Science and Engineering",
+    "school": "School of Science",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "468",
+    "first_name": "Smriti",
+    "middle_name": "NULL",
+    "last_name": "Gurung",
+    "department": "Department of Environmental Science and Engineering",
+    "school": "School of Science",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "469",
+    "first_name": "Bikash",
+    "middle_name": "NULL",
+    "last_name": "Adhikari",
+    "department": "Department of Environmental Science and Engineering",
+    "school": "School of Science",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "470",
+    "first_name": "Sabita",
+    "middle_name": "Aryal",
+    "last_name": "Khanna",
+    "department": "Department of Environmental Science and Engineering",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "471",
+    "first_name": "Nani",
+    "middle_name": "NULL",
+    "last_name": "Raut",
+    "department": "Department of Environmental Science and Engineering",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "472",
+    "first_name": "Subodh",
+    "middle_name": "NULL",
+    "last_name": "Luitel",
+    "department": "Department of Environmental Science and Engineering",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "473",
+    "first_name": "Mohan",
+    "middle_name": "Bahadur",
+    "last_name": "Chand",
+    "department": "Department of Environmental Science and Engineering",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "474",
+    "first_name": "Nirmal",
+    "middle_name": "Babu",
+    "last_name": "Aryal",
+    "department": "Department of Environmental Science and Engineering",
+    "school": "School of Science",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "475",
+    "first_name": "Narayan",
+    "middle_name": "Pd.",
+    "last_name": "Oli",
+    "department": "Department of Environmental Science and Engineering",
+    "school": "School of Science",
+    "position": "Office Staff"
+  },
+  {
+    "faculty_id": "476",
+    "first_name": "Pramila",
+    "middle_name": "NULL",
+    "last_name": "Khattri",
+    "department": "Department of Environmental Science and Engineering",
+    "school": "School of Science",
+    "position": "Office Staff"
+  },
+  {
+    "faculty_id": "477",
+    "first_name": "Kumar",
+    "middle_name": "NULL",
+    "last_name": "Lama",
+    "department": "Department of Agriculture",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "478",
+    "first_name": "Ram",
+    "middle_name": "Devi",
+    "last_name": "Tachamo Shah",
+    "department": "Department of Agriculture",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "479",
+    "first_name": "Nawal",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Agriculture",
+    "school": "School of Science",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "480",
+    "first_name": "Roshan",
+    "middle_name": "NULL",
+    "last_name": "Subedi",
+    "department": "Department of Agriculture",
+    "school": "School of Science",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "481",
+    "first_name": "Ajay",
+    "middle_name": "NULL",
+    "last_name": "Jaishi",
+    "department": "Department of Agriculture",
+    "school": "School of Science",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "482",
+    "first_name": "Janarjan",
+    "middle_name": "NULL",
+    "last_name": "Adhikari",
+    "department": "Department of Agriculture",
+    "school": "School of Science",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "483",
+    "first_name": "Arjun",
+    "middle_name": "NULL",
+    "last_name": "Pandit",
+    "department": "Department of Agriculture",
+    "school": "School of Science",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "485",
+    "first_name": "Dil",
+    "middle_name": "Islam",
+    "last_name": "Mansur",
+    "department": "Department of Anatomy",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "486",
+    "first_name": "Kalpana",
+    "middle_name": "NULL",
+    "last_name": "Sharma",
+    "department": "Department of Anatomy",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "487",
+    "first_name": "Dilip",
+    "middle_name": "Kumar",
+    "last_name": "Mehta",
+    "department": "Department of Anatomy",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "488",
+    "first_name": "Pragya",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Anatomy",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "489",
+    "first_name": "Rojina",
+    "middle_name": "NULL",
+    "last_name": "Shakya",
+    "department": "Department of Anatomy",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "490",
+    "first_name": "Anupama",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Anatomy",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "491",
+    "first_name": "Sheprala",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Anatomy",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "492",
+    "first_name": "Sunima",
+    "middle_name": "NULL",
+    "last_name": "Maskey",
+    "department": "Department of Anatomy",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "493",
+    "first_name": "Prabodh",
+    "middle_name": "NULL",
+    "last_name": "Risal",
+    "department": "Department of Biochemistry",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "494",
+    "first_name": "Rajendra",
+    "middle_name": "Dev",
+    "last_name": "Bhatta",
+    "department": "Department of Biochemistry",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "495",
+    "first_name": "Saroj",
+    "middle_name": "NULL",
+    "last_name": "Thapa",
+    "department": "Department of Biochemistry",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "496",
+    "first_name": "Pratikshya",
+    "middle_name": "NULL",
+    "last_name": "Gyawali",
+    "department": "Department of Biochemistry",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "497",
+    "first_name": "Rachana",
+    "middle_name": "NULL",
+    "last_name": "Pandey",
+    "department": "Department of Biochemistry",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "498",
+    "first_name": "Sharwan",
+    "middle_name": "Kumar",
+    "last_name": "Yadav",
+    "department": "Department of Biochemistry",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "499",
+    "first_name": "Jagdish",
+    "middle_name": "NULL",
+    "last_name": "Chataut",
+    "department": "Department of Community Medicine",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "500",
+    "first_name": "Kishore",
+    "middle_name": "NULL",
+    "last_name": "Khanal",
+    "department": "Department of Community Medicine",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "501",
+    "first_name": "Dipesh",
+    "middle_name": "NULL",
+    "last_name": "Tamrakar",
+    "department": "Department of Community Medicine",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "502",
+    "first_name": "Mukta",
+    "middle_name": "Singh",
+    "last_name": "Bhandari",
+    "department": "Department of Community Medicine",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "503",
+    "first_name": "Abha",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Community Medicine",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "504",
+    "first_name": "Jatan",
+    "middle_name": "B.",
+    "last_name": "Sherchan",
+    "department": "Department of Microbiology",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "505",
+    "first_name": "Prashamsa",
+    "middle_name": "NULL",
+    "last_name": "Karkee",
+    "department": "Department of Microbiology",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "506",
+    "first_name": "Surendra",
+    "middle_name": "Kr",
+    "last_name": "Madhup",
+    "department": "Department of Microbiology",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "507",
+    "first_name": "Srijana",
+    "middle_name": "NULL",
+    "last_name": "Ranjit",
+    "department": "Department of Microbiology",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "508",
+    "first_name": "Siddha",
+    "middle_name": "Bahadur",
+    "last_name": "Ranamagar",
+    "department": "Department of Microbiology",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "509",
+    "first_name": "Ramesh",
+    "middle_name": "NULL",
+    "last_name": "Makaju",
+    "department": "Department of Pathology",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "510",
+    "first_name": "Rachana",
+    "middle_name": "NULL",
+    "last_name": "Dhakal",
+    "department": "Department of Pathology",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "511",
+    "first_name": "Dipika",
+    "middle_name": "NULL",
+    "last_name": "Basnet",
+    "department": "Department of Pathology",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "512",
+    "first_name": "Binod",
+    "middle_name": "NULL",
+    "last_name": "Dhakal",
+    "department": "Department of Pathology",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "513",
+    "first_name": "Nikita",
+    "middle_name": "NULL",
+    "last_name": "Gautam",
+    "department": "Department of Pathology",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "514",
+    "first_name": "Binaya",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Pathology",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "515",
+    "first_name": "Prem",
+    "middle_name": "Bahadur",
+    "last_name": "Maharjan",
+    "department": "Department of Pathology",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "516",
+    "first_name": "Sony",
+    "middle_name": "NULL",
+    "last_name": "Shakya",
+    "department": "Department of Pharmacology",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "517",
+    "first_name": "Rajeev",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Pharmacology",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "518",
+    "first_name": "Jyoti",
+    "middle_name": "Tara",
+    "last_name": "Manandhar",
+    "department": "Department of Pharmacology",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "519",
+    "first_name": "Upama",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Pharmacology",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "520",
+    "first_name": "Ruchi",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Pharmacology",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "521",
+    "first_name": "Ojashwi",
+    "middle_name": "NULL",
+    "last_name": "Nepal",
+    "department": "Department of Physiology",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "522",
+    "first_name": "Reena",
+    "middle_name": "K",
+    "last_name": "Jha",
+    "department": "Department of Physiology",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "523",
+    "first_name": "Yubina",
+    "middle_name": "NULL",
+    "last_name": "Gautam",
+    "department": "Department of Physiology",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "524",
+    "first_name": "Mukesh",
+    "middle_name": "Kumar",
+    "last_name": "Jha",
+    "department": "Department of Physiology",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "525",
+    "first_name": "Manisha",
+    "middle_name": "NULL",
+    "last_name": "Bade",
+    "department": "Department of Physiology",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "526",
+    "first_name": "Bibek",
+    "middle_name": "NULL",
+    "last_name": "Koju",
+    "department": "Department of Physiology",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "527",
+    "first_name": "Rajendra",
+    "middle_name": "NULL",
+    "last_name": "Koju",
+    "department": "Department of Medicine",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "528",
+    "first_name": "Ram",
+    "middle_name": "Bahadur",
+    "last_name": "Gurung",
+    "department": "Department of Medicine",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "529",
+    "first_name": "Sanjay",
+    "middle_name": "NULL",
+    "last_name": "Humagain",
+    "department": "Department of Medicine",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "530",
+    "first_name": "Suryaraj",
+    "middle_name": "NULL",
+    "last_name": "Pathak",
+    "department": "Department of Medicine",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "531",
+    "first_name": "Rajendra",
+    "middle_name": "NULL",
+    "last_name": "Tamrakar",
+    "department": "Department of Medicine",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "532",
+    "first_name": "Nirish",
+    "middle_name": "NULL",
+    "last_name": "Vaidya",
+    "department": "Department of Medicine",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "533",
+    "first_name": "Nikesh",
+    "middle_name": "Mani",
+    "last_name": "Shrestha",
+    "department": "Department of Medicine",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "534",
+    "first_name": "Nabin",
+    "middle_name": "NULL",
+    "last_name": "Simkheda",
+    "department": "Department of Medicine",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "535",
+    "first_name": "Ram",
+    "middle_name": "K M",
+    "last_name": "Shrestha",
+    "department": "Department of Surgery",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "536",
+    "first_name": "Balaram",
+    "middle_name": "NULL",
+    "last_name": "Malla",
+    "department": "Department of Surgery",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "537",
+    "first_name": "Hem",
+    "middle_name": "Nath",
+    "last_name": "Joshi",
+    "department": "Department of Surgery",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "538",
+    "first_name": "Guna",
+    "middle_name": "Kumar",
+    "last_name": "Shrestha",
+    "department": "Department of Surgery",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "539",
+    "first_name": "Robin",
+    "middle_name": "Man",
+    "last_name": "Karmacharya",
+    "department": "Department of Surgery",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "540",
+    "first_name": "Yagya",
+    "middle_name": "Ratna",
+    "last_name": "Shakya",
+    "department": "Department of Surgery",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "541",
+    "first_name": "Bikesh",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Surgery",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "542",
+    "first_name": "Sujan",
+    "middle_name": "Makaju",
+    "last_name": "Shrestha",
+    "department": "Department of Surgery",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "543",
+    "first_name": "Rajan",
+    "middle_name": "NULL",
+    "last_name": "Koju",
+    "department": "Department of Surgery",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "544",
+    "first_name": "Satish",
+    "middle_name": "NULL",
+    "last_name": "Vaidya",
+    "department": "Department of Surgery",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "545",
+    "first_name": "Bibhusan",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Surgery",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "546",
+    "first_name": "Shashank",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Surgery",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "547",
+    "first_name": "Suman",
+    "middle_name": "NULL",
+    "last_name": "Tamrakar",
+    "department": "Department of Obstetrics and Gynaecology",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "548",
+    "first_name": "Abha",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Obstetrics and Gynaecology",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "549",
+    "first_name": "Anjana",
+    "middle_name": "Singh",
+    "last_name": "Dangol",
+    "department": "Department of Obstetrics and Gynaecology",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "550",
+    "first_name": "Sunila",
+    "middle_name": "NULL",
+    "last_name": "Shakya",
+    "department": "Department of Obstetrics and Gynaecology",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "551",
+    "first_name": "Akash",
+    "middle_name": "NULL",
+    "last_name": "Aryal",
+    "department": "Department of Obstetrics and Gynaecology",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "552",
+    "first_name": "Sweta",
+    "middle_name": "NULL",
+    "last_name": "Mahato",
+    "department": "Department of Obstetrics and Gynaecology",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "553",
+    "first_name": "Kumari",
+    "middle_name": "NULL",
+    "last_name": "Twayana",
+    "department": "Department of Obstetrics and Gynaecology",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "554",
+    "first_name": "Rupesh",
+    "middle_name": "Singh",
+    "last_name": "Basnyat",
+    "department": "Department of Obstetrics and Gynaecology",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "555",
+    "first_name": "Jyoti",
+    "middle_name": "NULL",
+    "last_name": "Dahal",
+    "department": "Department of Obstetrics and Gynaecology",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "556",
+    "first_name": "Srijana",
+    "middle_name": "NULL",
+    "last_name": "Dangol",
+    "department": "Department of Pediatrics",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "557",
+    "first_name": "Prithuja",
+    "middle_name": "NULL",
+    "last_name": "Paudyal",
+    "department": "Department of Pediatrics",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "558",
+    "first_name": "Anish",
+    "middle_name": "NULL",
+    "last_name": "Joshi",
+    "department": "Department of Pediatrics",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "559",
+    "first_name": "Narayan",
+    "middle_name": "C",
+    "last_name": "Shrestha",
+    "department": "Department of Pediatrics",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "560",
+    "first_name": "Sameera",
+    "middle_name": "NULL",
+    "last_name": "Thapa",
+    "department": "Department of Pediatrics",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "561",
+    "first_name": "Santosh",
+    "middle_name": "NULL",
+    "last_name": "Gautam",
+    "department": "Department of Pediatrics",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "562",
+    "first_name": "Ranjana",
+    "middle_name": "NULL",
+    "last_name": "Karki",
+    "department": "Department of Pediatrics",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "563",
+    "first_name": "Anamika",
+    "middle_name": "NULL",
+    "last_name": "Mahato",
+    "department": "Department of Pediatrics",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "564",
+    "first_name": "Bikash",
+    "middle_name": "Lal",
+    "last_name": "Shrestha",
+    "department": "Department of Otorhinolaryngology",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "565",
+    "first_name": "Monika",
+    "middle_name": "NULL",
+    "last_name": "Pokharel",
+    "department": "Department of Otorhinolaryngology",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "566",
+    "first_name": "Ashish",
+    "middle_name": "NULL",
+    "last_name": "Dhakal",
+    "department": "Department of Otorhinolaryngology",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "567",
+    "first_name": "Abha",
+    "middle_name": "Kiran",
+    "last_name": "KC",
+    "department": "Department of Otorhinolaryngology",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "568",
+    "first_name": "Krishna",
+    "middle_name": "Sundar",
+    "last_name": "Shrestha",
+    "department": "Department of Otorhinolaryngology",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "569",
+    "first_name": "Sameer",
+    "middle_name": "NULL",
+    "last_name": "Karmarcharya",
+    "department": "Department of Otorhinolaryngology",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "570",
+    "first_name": "Pooja",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Ophthalmology",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "571",
+    "first_name": "Angira",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Ophthalmology",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "572",
+    "first_name": "Tina",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Ophthalmology",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "573",
+    "first_name": "Richa",
+    "middle_name": "Makaju",
+    "last_name": "Shrestha",
+    "department": "Department of Ophthalmology",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "574",
+    "first_name": "Subindra",
+    "middle_name": "NULL",
+    "last_name": "Karki",
+    "department": "Department of Radiodiagnosis",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "575",
+    "first_name": "Elina",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Radiodiagnosis",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "576",
+    "first_name": "Nisha",
+    "middle_name": "NULL",
+    "last_name": "Gupta",
+    "department": "Department of Radiodiagnosis",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "577",
+    "first_name": "Roshan",
+    "middle_name": "NULL",
+    "last_name": "Chaudhary",
+    "department": "Department of Radiodiagnosis",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "578",
+    "first_name": "Sumarga",
+    "middle_name": "NULL",
+    "last_name": "Simkhanda",
+    "department": "Department of Radiodiagnosis",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "579",
+    "first_name": "Sama",
+    "middle_name": "NULL",
+    "last_name": "Byanju",
+    "department": "Department of Radiodiagnosis",
+    "school": "School of Medical Sciences",
+    "position": "Registrar"
+  },
+  {
+    "faculty_id": "580",
+    "first_name": "Ujjwal",
+    "middle_name": "NULL",
+    "last_name": "Dahal",
+    "department": "Department of Radiodiagnosis",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "581",
+    "first_name": "Nisha",
+    "middle_name": "NULL",
+    "last_name": "Karna",
+    "department": "Department of Radiodiagnosis",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "582",
+    "first_name": "Dipak",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Orthopedics",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "583",
+    "first_name": "Rohit",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Orthopedics",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "584",
+    "first_name": "Darshan",
+    "middle_name": "NULL",
+    "last_name": "Dhoju",
+    "department": "Department of Orthopedics",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "585",
+    "first_name": "Bikash",
+    "middle_name": "NULL",
+    "last_name": "Parajuli",
+    "department": "Department of Orthopedics",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "586",
+    "first_name": "Jagdish",
+    "middle_name": "NULL",
+    "last_name": "Thapa",
+    "department": "Department of Orthopedics",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "587",
+    "first_name": "Bishnu",
+    "middle_name": "Hari",
+    "last_name": "Chandi",
+    "department": "Department of Orthopedics",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "588",
+    "first_name": "Sagar",
+    "middle_name": "NULL",
+    "last_name": "Maharjan",
+    "department": "Department of Orthopedics",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "589",
+    "first_name": "Jeevan",
+    "middle_name": "NULL",
+    "last_name": "Singh",
+    "department": "Department of Anaesthesia",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "590",
+    "first_name": "Sangina",
+    "middle_name": "NULL",
+    "last_name": "Ranjitkar",
+    "department": "Department of Anaesthesia",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "591",
+    "first_name": "Om",
+    "middle_name": "Sundar",
+    "last_name": "Shrestha",
+    "department": "Department of Anaesthesia",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "592",
+    "first_name": "Manakamana",
+    "middle_name": "NULL",
+    "last_name": "Dwa",
+    "department": "Department of Anaesthesia",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "593",
+    "first_name": "Ashish",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Anaesthesia",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "594",
+    "first_name": "Alex",
+    "middle_name": "NULL",
+    "last_name": "Tandukar",
+    "department": "Department of Anaesthesia",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "595",
+    "first_name": "Kalpana",
+    "middle_name": "NULL",
+    "last_name": "Kharbuja",
+    "department": "Department of Anaesthesia",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "596",
+    "first_name": "Sameer",
+    "middle_name": "NULL",
+    "last_name": "Shakya",
+    "department": "Department of Anaesthesia",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "597",
+    "first_name": "Bibek",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Anaesthesia",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "598",
+    "first_name": "Manisha",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Anaesthesia",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "599",
+    "first_name": "Chunauti",
+    "middle_name": "NULL",
+    "last_name": "Dangi",
+    "department": "Department of Anaesthesia",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "600",
+    "first_name": "Raj",
+    "middle_name": "Kumar",
+    "last_name": "Karki",
+    "department": "Department of Forensic Medicine",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "601",
+    "first_name": "Pankaj",
+    "middle_name": "Kumar",
+    "last_name": "Singh",
+    "department": "Department of Forensic Medicine",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "602",
+    "first_name": "Abdhul",
+    "middle_name": "Sami",
+    "last_name": "Khan",
+    "department": "Department of Forensic Medicine",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "603",
+    "first_name": "Manisha",
+    "middle_name": "Singh",
+    "last_name": "Basukala",
+    "department": "Department of Dermatology",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "604",
+    "first_name": "Aditi",
+    "middle_name": "NULL",
+    "last_name": "Mishra",
+    "department": "Department of Dermatology",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "605",
+    "first_name": "Elisha",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Dermatology",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "606",
+    "first_name": "Roshana",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of General Practice and Emergency Medicine",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "607",
+    "first_name": "Sanu",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of General Practice and Emergency Medicine",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "608",
+    "first_name": "Anmol",
+    "middle_name": "Purna",
+    "last_name": "Shrestha",
+    "department": "Department of General Practice and Emergency Medicine",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "609",
+    "first_name": "Samjhana",
+    "middle_name": "NULL",
+    "last_name": "Basnet",
+    "department": "Department of General Practice and Emergency Medicine",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "610",
+    "first_name": "Raj",
+    "middle_name": "Kumar",
+    "last_name": "Dangal",
+    "department": "Department of General Practice and Emergency Medicine",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "611",
+    "first_name": "Shailesh",
+    "middle_name": "Prasad",
+    "last_name": "Shrestha",
+    "department": "Department of General Practice and Emergency Medicine",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "612",
+    "first_name": "Ajay",
+    "middle_name": "NULL",
+    "last_name": "Risal",
+    "department": "Department of Psychiatry",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "613",
+    "first_name": "Dipak",
+    "middle_name": "NULL",
+    "last_name": "Kunwar",
+    "department": "Department of Psychiatry",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "614",
+    "first_name": "Barsha",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Psychiatry",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "615",
+    "first_name": "Rika",
+    "middle_name": "NULL",
+    "last_name": "Rijal",
+    "department": "Department of Psychiatry",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "616",
+    "first_name": "Chandan",
+    "middle_name": "NULL",
+    "last_name": "Upadhyaya",
+    "department": "Department of Oral and Maxillofacial Surgery",
+    "school": "School of Medical Sciences",
+    "position": "Professor – Head of Department (HOD)"
+  },
+  {
+    "faculty_id": "617",
+    "first_name": "Nitesh",
+    "middle_name": "Kr.",
+    "last_name": "Chaurasiya",
+    "department": "Department of Oral and Maxillofacial Surgery",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "618",
+    "first_name": "Mamata",
+    "middle_name": "NULL",
+    "last_name": "Shakya",
+    "department": "Department of Oral and Maxillofacial Surgery",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "619",
+    "first_name": "Dilip",
+    "middle_name": "NULL",
+    "last_name": "Rauniyar",
+    "department": "Department of Oral and Maxillofacial Surgery",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "620",
+    "first_name": "Binam",
+    "middle_name": "NULL",
+    "last_name": "Sapkota",
+    "department": "Department of Prosthodontics and Maxillo Facial Prosthesis",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "621",
+    "first_name": "Smriti",
+    "middle_name": "NULL",
+    "last_name": "K.C.",
+    "department": "Department of Prosthodontics and Maxillo Facial Prosthesis",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor (HOD)"
+  },
+  {
+    "faculty_id": "622",
+    "first_name": "Gita",
+    "middle_name": "NULL",
+    "last_name": "Neupane",
+    "department": "Department of Prosthodontics and Maxillo Facial Prosthesis",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "623",
+    "first_name": "Niraj",
+    "middle_name": "NULL",
+    "last_name": "Dhyako",
+    "department": "Department of Prosthodontics and Maxillo Facial Prosthesis",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "624",
+    "first_name": "Manoj",
+    "middle_name": "NULL",
+    "last_name": "Humagain",
+    "department": "Department of Periodontics",
+    "school": "School of Medical Sciences",
+    "position": "Professor – Head of Department (HOD)"
+  },
+  {
+    "faculty_id": "625",
+    "first_name": "Simant",
+    "middle_name": "NULL",
+    "last_name": "Lamichhane",
+    "department": "Department of Periodontics",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "626",
+    "first_name": "Arjun",
+    "middle_name": "Hari",
+    "last_name": "Rijal",
+    "department": "Department of Periodontics",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "627",
+    "first_name": "Anil",
+    "middle_name": "NULL",
+    "last_name": "Chakradhar",
+    "department": "Department of Conservative Dentistry and Endodontics",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "628",
+    "first_name": "Manisha",
+    "middle_name": "NULL",
+    "last_name": "Nepal",
+    "department": "Department of Conservative Dentistry and Endodontics",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "629",
+    "first_name": "Siras",
+    "middle_name": "Prasad",
+    "last_name": "Pradhan",
+    "department": "Department of Conservative Dentistry and Endodontics",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "630",
+    "first_name": "Dashrath",
+    "middle_name": "NULL",
+    "last_name": "Kafle",
+    "department": "Department of Orthodontics and Dentofacial Orthopedics",
+    "school": "School of Medical Sciences",
+    "position": "Professor – Head of Department (HOD)"
+  },
+  {
+    "faculty_id": "631",
+    "first_name": "Ravi",
+    "middle_name": "Kumar",
+    "last_name": "Mahato",
+    "department": "Department of Orthodontics and Dentofacial Orthopedics",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "632",
+    "first_name": "Suja",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Orthodontics and Dentofacial Orthopedics",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "633",
+    "first_name": "Sanjiv",
+    "middle_name": "NULL",
+    "last_name": "Luitel",
+    "department": "Department of Orthodontics and Dentofacial Orthopedics",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "634",
+    "first_name": "Sumita",
+    "middle_name": "NULL",
+    "last_name": "Upadhyay",
+    "department": "Department of Pediatric and Preventive Dentistry",
+    "school": "School of Medical Sciences",
+    "position": "Professor – Head of Department (HOD)"
+  },
+  {
+    "faculty_id": "635",
+    "first_name": "Prayash",
+    "middle_name": "NULL",
+    "last_name": "Dallakoti",
+    "department": "Department of Pediatric and Preventive Dentistry",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "636",
+    "first_name": "Harleen",
+    "middle_name": "NULL",
+    "last_name": "Bali",
+    "department": "Department of Oral Medicine and Radiology",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "637",
+    "first_name": "Sagar",
+    "middle_name": "NULL",
+    "last_name": "Adhikari",
+    "department": "Department of Oral Medicine and Radiology",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "638",
+    "first_name": "Pratibha",
+    "middle_name": "NULL",
+    "last_name": "Poudel",
+    "department": "Department of Oral and Maxillofacial Pathology",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "639",
+    "first_name": "Bhojraj",
+    "middle_name": "NULL",
+    "last_name": "Adhikari",
+    "department": "Department of Oral and Maxillofacial Pathology",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "640",
+    "first_name": "Dilip",
+    "middle_name": "NULL",
+    "last_name": "Prajapati",
+    "department": "Department of Community Dentistry",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "641",
+    "first_name": "Swagat",
+    "middle_name": "Kumar",
+    "last_name": "Mahanta",
+    "department": "Department of Community Dentistry",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "642",
+    "first_name": "Kunta",
+    "middle_name": "Devi",
+    "last_name": "Pun",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "643",
+    "first_name": "Geeta",
+    "middle_name": "K",
+    "last_name": "Shrestha",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "644",
+    "first_name": "Sita",
+    "middle_name": "NULL",
+    "last_name": "Karki",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "645",
+    "first_name": "Radha",
+    "middle_name": "NULL",
+    "last_name": "Acharya",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "646",
+    "first_name": "Neema",
+    "middle_name": "NULL",
+    "last_name": "Bhandari",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "647",
+    "first_name": "Laxmi",
+    "middle_name": "M",
+    "last_name": "Prajapati",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "648",
+    "first_name": "Subasna",
+    "middle_name": "Makaju",
+    "last_name": "Shrestha",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "649",
+    "first_name": "Jamuna",
+    "middle_name": "NULL",
+    "last_name": "Bajracharya",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "650",
+    "first_name": "Siddhi",
+    "middle_name": "L",
+    "last_name": "Bajracharya",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "651",
+    "first_name": "Binu",
+    "middle_name": "NULL",
+    "last_name": "Thapa",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "652",
+    "first_name": "Sulekha",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "653",
+    "first_name": "Sushila",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "654",
+    "first_name": "Ratnesworee",
+    "middle_name": "NULL",
+    "last_name": "Prajapati",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "655",
+    "first_name": "Bhawana",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "656",
+    "first_name": "Bhawana",
+    "middle_name": "NULL",
+    "last_name": "Regmi",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "657",
+    "first_name": "Subina",
+    "middle_name": "NULL",
+    "last_name": "Manandhar",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "658",
+    "first_name": "Nirmala",
+    "middle_name": "NULL",
+    "last_name": "Silwal",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "659",
+    "first_name": "Pratibha",
+    "middle_name": "NULL",
+    "last_name": "Chalishe",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer –(On leave)"
+  },
+  {
+    "faculty_id": "660",
+    "first_name": "Prajina",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "661",
+    "first_name": "Sarita",
+    "middle_name": "NULL",
+    "last_name": "Bhandari",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "662",
+    "first_name": "Prabha",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "663",
+    "first_name": "Champa",
+    "middle_name": "NULL",
+    "last_name": "Bhuju",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "664",
+    "first_name": "Jyotshnana",
+    "middle_name": "Twi",
+    "last_name": "Twi",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "665",
+    "first_name": "Indira",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "666",
+    "first_name": "Alina",
+    "middle_name": "NULL",
+    "last_name": "Tamrakar",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "667",
+    "first_name": "Durga",
+    "middle_name": "NULL",
+    "last_name": "Tiwari",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "668",
+    "first_name": "Sarina",
+    "middle_name": "NULL",
+    "last_name": "Shakya",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "669",
+    "first_name": "Rashmi",
+    "middle_name": "NULL",
+    "last_name": "Maharjan",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer- (On Leave)"
+  },
+  {
+    "faculty_id": "670",
+    "first_name": "Parbati",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "671",
+    "first_name": "Riya",
+    "middle_name": "NULL",
+    "last_name": "Maharjan",
+    "department": "Department of Nursing and Midwifery",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "672",
+    "first_name": "Ranjeeta",
+    "middle_name": "S",
+    "last_name": "Acharya",
+    "department": "Department of Physiotherapy",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "673",
+    "first_name": "Bimika",
+    "middle_name": "NULL",
+    "last_name": "Khadgi",
+    "department": "Department of Physiotherapy",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "674",
+    "first_name": "Inosha",
+    "middle_name": "NULL",
+    "last_name": "Bimali",
+    "department": "Department of Physiotherapy",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "675",
+    "first_name": "Nishchal",
+    "middle_name": "Ratna",
+    "last_name": "Shakya",
+    "department": "Department of Physiotherapy",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "676",
+    "first_name": "Govinda",
+    "middle_name": "NULL",
+    "last_name": "Nepal",
+    "department": "Department of Physiotherapy",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "677",
+    "first_name": "Regan",
+    "middle_name": "NULL",
+    "last_name": "Shakya",
+    "department": "Department of Physiotherapy",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor –(On Leave)"
+  },
+  {
+    "faculty_id": "678",
+    "first_name": "Smita",
+    "middle_name": "NULL",
+    "last_name": "KC",
+    "department": "Department of Physiotherapy",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "679",
+    "first_name": "Umesh",
+    "middle_name": "NULL",
+    "last_name": "Adhikari",
+    "department": "Department of Physiotherapy",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "680",
+    "first_name": "Deepak",
+    "middle_name": "NULL",
+    "last_name": "Joshi",
+    "department": "Department of Physiotherapy",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "681",
+    "first_name": "Bipin",
+    "middle_name": "NULL",
+    "last_name": "Ghimire",
+    "department": "Department of Physiotherapy",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "682",
+    "first_name": "Anjana",
+    "middle_name": "NULL",
+    "last_name": "Panthee",
+    "department": "Department of Physiotherapy",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "683",
+    "first_name": "Antima",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Physiotherapy",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "684",
+    "first_name": "Subarna",
+    "middle_name": "NULL",
+    "last_name": "Thapa",
+    "department": "Department of Physiotherapy",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "685",
+    "first_name": "Biraj",
+    "middle_name": "Man",
+    "last_name": "Karmacharya",
+    "department": "Department of Public Health",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "686",
+    "first_name": "Archana",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Public Health",
+    "school": "School of Medical Sciences",
+    "position": "Professor"
+  },
+  {
+    "faculty_id": "687",
+    "first_name": "Akina",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Public Health",
+    "school": "School of Medical Sciences",
+    "position": "Associate Professor"
+  },
+  {
+    "faculty_id": "688",
+    "first_name": "Pramita",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Public Health",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "689",
+    "first_name": "Shrinkhala",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Public Health",
+    "school": "School of Medical Sciences",
+    "position": "Assistant Professor"
+  },
+  {
+    "faculty_id": "690",
+    "first_name": "Satya",
+    "middle_name": "NULL",
+    "last_name": "Shrestha",
+    "department": "Department of Public Health",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "691",
+    "first_name": "Bandana",
+    "middle_name": "NULL",
+    "last_name": "Paneru",
+    "department": "Department of Public Health",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  },
+  {
+    "faculty_id": "692",
+    "first_name": "Vijay",
+    "middle_name": "NULL",
+    "last_name": "Sharma",
+    "department": "Department of Public Health",
+    "school": "School of Medical Sciences",
+    "position": "Lecturer"
+  }
+]
