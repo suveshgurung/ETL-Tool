@@ -1,7 +1,7 @@
 import pandas as pd
 from typing import Dict, Any
 from collections import Counter
-from etl_engine.models.data_model import FacultyAnalysis
+from etl_engine.models.transformer_models import FacultyAnalysis
 
 class FacultyTransformer:
     @staticmethod

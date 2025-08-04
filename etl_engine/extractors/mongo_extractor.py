@@ -14,64 +14,47 @@ class MongoExtractor(BaseExtractor):
             return False
 
     def extract(self) -> pd.DataFrame:
-        department_df = self.__extract_department_information()
-        school_df = self.__extract_school_information()
-        research_df = self.__extract_research_papers()
-
-        return research_df
-
-    def __extract_research_papers(self) -> pd.DataFrame:
         try:
             with get_mongo_db() as db:
-                research_cursor = db.research_papers.find()
-                research_list = list(research_cursor)
+                papers = []
 
-                if research_list:
-                    research_df = pd.DataFrame(research_list)
-                    research_df.drop(columns=["_id"], inplace=True)
-                    return research_df
+                for doc in db.research_papers_v2.find():
+                    for paper in doc['papers']:
+                        first_name = None
+                        middle_name = None
+                        last_name = None
+                        full_name = doc['faculty_name']
+
+                        if len(full_name) == 2:
+                            first_name = full_name[0]
+                            last_name = full_name[1]
+                        elif len(full_name) == 3:
+                            first_name = full_name[0]
+                            middle_name = full_name[1]
+                            last_name = full_name[2]
+
+                        paper_info = {
+                            'faculty_id': doc['faculty_id'],
+                            'first_name': first_name,
+                            'middle_name': middle_name,
+                            'last_name': last_name,
+                            'department': doc['department'],
+                            'school': doc['school'],
+                            'paper_title': paper['title'],
+                            'published_year': paper['year'],
+                            'journal': paper['journal'],
+                            'coauthors': paper['co_authors']
+                        }
+
+                        papers.append(paper_info)
+
+                if papers:
+                    research_paper_df = pd.DataFrame(papers)
+                    return research_paper_df
                 else:
-                    print("No research data found.")
+                    print("No research paper data found.")
                     return pd.DataFrame()
+
         except Exception as e:
             print(f"Extraction of research papers failed: {e}")
             return pd.DataFrame()
-
-    def __extract_department_information(self) -> pd.DataFrame:
-        try:
-            with get_mongo_db() as db:
-                departments_cursor = db.departments.find()
-                departments_list = list(departments_cursor)
-
-                if departments_list:
-                    department_df = pd.DataFrame(departments_list)
-                    department_df.drop(columns=["_id"], inplace=True)
-                    return department_df
-                else:
-                    print("No department data found.")
-                    return pd.DataFrame()
-        except Exception as e:
-            print(f"Extraction of department information failed: {e}")
-            return pd.DataFrame()
-
-    def __extract_school_information(self) -> pd.DataFrame:
-        try:
-            with get_mongo_db() as db:
-                schools_cursor = db.schools.find()
-                schools_list = list(schools_cursor)
-
-                if schools_list:
-                    school_df = pd.DataFrame(schools_list)
-                    school_df.drop(columns=["_id"], inplace=True)
-
-                    return school_df
-        except Exception as e:
-            print(f"Extraction of school information failed: {e}")
-            return pd.DataFrame()
-
-
-mongo = MongoExtractor()
-if mongo.connect():
-    mongo.extract()
-else:
-    print("Fail")
