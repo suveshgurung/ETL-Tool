@@ -1,6 +1,8 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
+import axios from "axios"
+import { AxiosResponse } from "axios"
 import {
   Search,
   Users,
@@ -15,7 +17,6 @@ import {
 } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import {
@@ -34,93 +35,47 @@ import {
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart"
 import { ResponsiveContainer, XAxis, YAxis, LineChart, Line, Bar, BarChart } from "recharts"
 
-// Mock data
-const facultyData = [
-  {
-    id: 1,
-    name: "Dr. Sarah Chen",
-    position: "Professor",
-    department: "Computer Science",
-    school: "Engineering",
-    researchAreas: ["Machine Learning", "Artificial Intelligence", "Data Mining"],
-    email: "s.chen@university.edu",
-  },
-  {
-    id: 2,
-    name: "Dr. Michael Rodriguez",
-    position: "Associate Professor",
-    department: "Mathematics",
-    school: "Sciences",
-    researchAreas: ["Numerical Analysis", "Computational Mathematics", "Optimization"],
-    email: "m.rodriguez@university.edu",
-  },
-  {
-    id: 3,
-    name: "Dr. Emily Watson",
-    position: "Assistant Professor",
-    department: "Computer Science",
-    school: "Engineering",
-    researchAreas: ["Machine Learning", "Computer Vision", "Deep Learning"],
-    email: "e.watson@university.edu",
-  },
-  {
-    id: 4,
-    name: "Dr. James Liu",
-    position: "Lecturer",
-    department: "Statistics",
-    school: "Sciences",
-    researchAreas: ["Statistical Learning", "Bayesian Methods", "Data Science"],
-    email: "j.liu@university.edu",
-  },
-  {
-    id: 5,
-    name: "Dr. Anna Kowalski",
-    position: "Professor",
-    department: "Physics",
-    school: "Sciences",
-    researchAreas: ["Quantum Computing", "Theoretical Physics", "Machine Learning"],
-    email: "a.kowalski@university.edu",
-  },
-]
+interface DashboardOverviewData {
+  total_departments: number,
+  total_faculty: number,
+  total_publications: number,
+  total_research_areas: number,
+};
 
-// Faculty composition data
-const positionData = [
-  { position: "Professor", count: 45, color: "#3b82f6" },
-  { position: "Associate Professor", count: 32, color: "#10b981" },
-  { position: "Assistant Professor", count: 28, color: "#f59e0b" },
-  { position: "Lecturer", count: 15, color: "#ef4444" },
-  { position: "Research Fellow", count: 12, color: "#8b5cf6" },
-]
+interface FacultyData {
+  department: string,
+  faculty_id: number,
+  first_name: string,
+  full_name: string,
+  last_name: string,
+  middle_name: string,
+  position: string,
+  publication_count: number,
+  research_areas: string[],
+  school: string,
+};
 
-const departmentData = [
-  { department: "Computer Science", count: 25 },
-  { department: "Mathematics", count: 18 },
-  { department: "Physics", count: 15 },
-  { department: "Statistics", count: 12 },
-  { department: "Engineering", count: 22 },
-  { department: "Biology", count: 14 },
-]
+interface PositionData {
+  color: string,
+  count: number,
+  position: string,
+};
 
-// Analytics data for papers
-const papersByYear = [
-  { year: "2019", papers: 145 },
-  { year: "2020", papers: 167 },
-  { year: "2021", papers: 189 },
-  { year: "2022", papers: 234 },
-  { year: "2023", papers: 278 },
-  { year: "2024", papers: 312 },
-]
+interface DepartmentData {
+  count: number,
+  department: string,
+};
 
-const papersByDomain = [
-  { domain: "Machine Learning", papers: 89, color: "#3b82f6" },
-  { domain: "Data Science", papers: 67, color: "#10b981" },
-  { domain: "Computer Vision", papers: 54, color: "#f59e0b" },
-  { domain: "Natural Language Processing", papers: 43, color: "#ef4444" },
-  { domain: "Robotics", papers: 38, color: "#8b5cf6" },
-  { domain: "Cybersecurity", papers: 32, color: "#06b6d4" },
-  { domain: "Quantum Computing", papers: 28, color: "#ec4899" },
-  { domain: "Bioinformatics", papers: 24, color: "#84cc16" },
-]
+interface PapersByYear {
+  papers: number,
+  year: string,
+};
+
+interface PapersByDomain {
+  color: string,
+  domain: string,
+  papers: number,
+};
 
 function AppSidebar() {
   return (
@@ -188,21 +143,6 @@ function AppSidebar() {
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
-        <SidebarGroup>
-          <SidebarGroupLabel className="text-slate-600 font-medium">System</SidebarGroupLabel>
-          <SidebarGroupContent>
-            <SidebarMenu>
-              <SidebarMenuItem>
-                <SidebarMenuButton asChild className="hover:bg-slate-50">
-                  <a href="#settings">
-                    <Settings className="h-4 w-4" />
-                    <span>ETL Configuration</span>
-                  </a>
-                </SidebarMenuButton>
-              </SidebarMenuItem>
-            </SidebarMenu>
-          </SidebarGroupContent>
-        </SidebarGroup>
       </SidebarContent>
     </Sidebar>
   )
@@ -212,12 +152,19 @@ export default function Dashboard() {
   const [searchTerm, setSearchTerm] = useState("")
   const [selectedDepartment, setSelectedDepartment] = useState("all")
   const [selectedSchool, setSelectedSchool] = useState("all")
+  const [overviewData, setOverviewData] = useState<DashboardOverviewData>({});
+  const [facultyData, setFacultyData] = useState<FacultyData[]>([]);
+  const [positionData, setPositionData] = useState<PositionData[]>([]);
+  const [departmentData, setDepartmentData] = useState<DepartmentData[]>([]);
+  const [papersByYear, setPapersByYear] = useState<PapersByYear[]>([]);
+  const [papersByDomain, setPapersByDomain] = useState<PapersByDomain[]>([]);
 
-  const filteredFaculty = facultyData.filter((faculty) => {
+  const filteredFaculty = facultyData?.filter((faculty) => {
     const matchesSearch =
       searchTerm === "" ||
-      faculty.researchAreas.some((area) => area.toLowerCase().includes(searchTerm.toLowerCase())) ||
-      faculty.name.toLowerCase().includes(searchTerm.toLowerCase())
+        (faculty.research_areas && faculty.research_areas.some((area) => 
+          area.toLowerCase().includes(searchTerm.toLowerCase()))) ||
+        faculty.full_name.toLowerCase().includes(searchTerm.toLowerCase());
 
     const matchesDepartment = selectedDepartment === "all" || faculty.department === selectedDepartment
     const matchesSchool = selectedSchool === "all" || faculty.school === selectedSchool
@@ -230,6 +177,87 @@ export default function Dashboard() {
     // In a real app, this would filter based on actual department/school data
     return true
   })
+
+  useEffect(() => {
+    const get_overview = async () => {
+      const response: AxiosResponse = await axios.get('http://localhost:5000/api/dashboard/overview');
+
+      if (response.status == 200) {
+        const overview_data: DashboardOverviewData = response.data.data;
+        setOverviewData(overview_data);
+      }
+    }
+
+    get_overview();
+  }, []);
+
+  useEffect(() => {
+    const get_faculty_information = async () => {
+      const response: AxiosResponse = await axios.get('http://localhost:5000/api/all-faculty');
+
+      if (response.status == 200) {
+        const faculty_data: FacultyData[] = response.data.data.faculty;
+        setFacultyData(faculty_data);
+      }
+    }
+
+    get_faculty_information();
+  }, []);
+
+  useEffect(() => {
+    const get_position_data = async () => {
+      const response: AxiosResponse = await axios.get('http://localhost:5000/api/dashboard/faculty-positions');
+
+      if (response.status == 200) {
+        const position_data: PositionData[] = response.data.data;
+        setPositionData(position_data);
+      }
+    };
+
+    get_position_data();
+  }, []);
+
+  useEffect(() => {
+    const get_department_data = async () => {
+      const response: AxiosResponse = await axios.get('http://localhost:5000/api/dashboard/department-faculty');
+
+      if (response.status == 200) {
+        const department_data: DepartmentData[] = response.data.data;
+        setDepartmentData(department_data)
+      }
+    };
+
+    get_department_data();
+  }, []);
+
+  useEffect(() => {
+    const get_papers_by_years = async () => {
+      const response: AxiosResponse = await axios.get('http://localhost:5000/api/dashboard/publications-trend');
+
+      if (response.status == 200) {
+        const papers_data: PapersByYear[] = response.data.data;
+        setPapersByYear(papers_data);
+      }
+    };
+
+    get_papers_by_years();
+  }, []);
+
+  useEffect(() => {
+    const get_papers_by_domain = async () => {
+      const response: AxiosResponse = await axios.get('http://localhost:5000/api/dashboard/research-areas');
+
+      if (response.status == 200) {
+        const papers_data_by_domain: PapersByDomain[] = response.data.data;
+        setPapersByDomain(papers_data_by_domain);
+      }
+    };
+
+    get_papers_by_domain();
+  }, []);
+
+  const departments = Array.from(new Set(facultyData.map(faculty => faculty.department))).sort();
+  const schools = Array.from(new Set(facultyData.map(faculty => faculty.school))).sort();
 
   return (
     <SidebarProvider>
@@ -247,7 +275,7 @@ export default function Dashboard() {
 
         <div className="p-6 space-y-8">
           {/* Overview Stats */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div id="dashboard" className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <Card className="border-0 shadow-lg bg-gradient-to-br from-blue-500 to-blue-600 text-white overflow-hidden relative">
               <div className="absolute top-0 right-0 w-20 h-20 bg-white/10 rounded-full -translate-y-10 translate-x-10"></div>
               <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
@@ -255,8 +283,7 @@ export default function Dashboard() {
                 <Users className="h-5 w-5 text-blue-200" />
               </CardHeader>
               <CardContent>
-                <div className="text-3xl font-bold">132</div>
-                <p className="text-xs text-blue-200">+2.1% from last month</p>
+                <div className="text-3xl font-bold">{overviewData.total_faculty}</div>
               </CardContent>
             </Card>
 
@@ -267,7 +294,7 @@ export default function Dashboard() {
                 <BookOpen className="h-5 w-5 text-emerald-200" />
               </CardHeader>
               <CardContent>
-                <div className="text-3xl font-bold">45</div>
+                <div className="text-3xl font-bold">{overviewData.total_research_areas}</div>
                 <p className="text-xs text-emerald-200">Active research areas</p>
               </CardContent>
             </Card>
@@ -279,15 +306,14 @@ export default function Dashboard() {
                 <FileText className="h-5 w-5 text-purple-200" />
               </CardHeader>
               <CardContent>
-                <div className="text-3xl font-bold">1,325</div>
-                <p className="text-xs text-purple-200">+18.2% this year</p>
+                <div className="text-3xl font-bold">{overviewData.total_publications}</div>
               </CardContent>
             </Card>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Supervisor Finder */}
-            <Card className="border-0 shadow-xl bg-white/70 backdrop-blur-sm">
+            <Card id="supervisor-finder" className="border-0 shadow-xl bg-white/70 backdrop-blur-sm">
               <CardHeader className="bg-gradient-to-r from-slate-50 to-blue-50/50 rounded-t-lg">
                 <CardTitle className="flex items-center gap-3">
                   <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-blue-500 to-purple-600">
@@ -321,10 +347,11 @@ export default function Dashboard() {
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="all">All Departments</SelectItem>
-                      <SelectItem value="Computer Science">Computer Science</SelectItem>
-                      <SelectItem value="Mathematics">Mathematics</SelectItem>
-                      <SelectItem value="Physics">Physics</SelectItem>
-                      <SelectItem value="Statistics">Statistics</SelectItem>
+                      {departments.map(dept => (
+                        <SelectItem key={dept} value={dept}>
+                          {dept}
+                        </SelectItem>
+                      ))}
                     </SelectContent>
                   </Select>
 
@@ -334,13 +361,15 @@ export default function Dashboard() {
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="all">All Schools</SelectItem>
-                      <SelectItem value="Engineering">Engineering</SelectItem>
-                      <SelectItem value="Sciences">Sciences</SelectItem>
+                      {schools.map(school => (
+                        <SelectItem key={school} value={school}>
+                          {school}
+                        </SelectItem>
+                      ))}
                     </SelectContent>
-                  </Select>
-                </div>
+                  </Select>                </div>
 
-                <div className="space-y-4 max-h-96 overflow-y-auto">
+                <div className="space-y-4 max-h-420 overflow-y-auto">
                   {filteredFaculty.length === 0 ? (
                     <div className="text-center py-8">
                       <div className="w-16 h-16 mx-auto mb-4 bg-slate-100 rounded-full flex items-center justify-center">
@@ -351,27 +380,20 @@ export default function Dashboard() {
                   ) : (
                     filteredFaculty.map((faculty) => (
                       <div
-                        key={faculty.id}
+                        key={faculty.faculty_id}
                         className="border border-slate-200 rounded-xl p-5 space-y-3 bg-white/60 backdrop-blur-sm hover:shadow-md transition-all duration-200 hover:bg-white/80"
                       >
                         <div className="flex items-start justify-between">
                           <div className="space-y-1">
-                            <h4 className="font-semibold text-slate-900">{faculty.name}</h4>
+                            <h4 className="font-semibold text-slate-900">{faculty.full_name}</h4>
                             <p className="text-sm text-slate-600 font-medium">{faculty.position}</p>
                             <p className="text-xs text-slate-500">
                               {faculty.department} • {faculty.school}
                             </p>
                           </div>
-                          <Button
-                            variant="outline"
-                            size="sm"
-                            className="border-blue-200 text-blue-700 hover:bg-blue-50 bg-transparent"
-                          >
-                            View Profile
-                          </Button>
                         </div>
                         <div className="flex flex-wrap gap-2">
-                          {faculty.researchAreas.map((area) => (
+                          {faculty.research_areas.map((area) => (
                             <Badge
                               key={area}
                               variant="secondary"
@@ -389,7 +411,7 @@ export default function Dashboard() {
             </Card>
 
             {/* Faculty Composition Analytics */}
-            <Card className="border-0 shadow-xl bg-white/70 backdrop-blur-sm">
+            <Card id="faculty" className="border-0 shadow-xl bg-white/70 backdrop-blur-sm">
               <CardHeader className="bg-gradient-to-r from-slate-50 to-orange-50/50 rounded-t-lg">
                 <CardTitle className="flex items-center gap-3">
                   <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-orange-500 to-red-600">
@@ -467,7 +489,7 @@ export default function Dashboard() {
           </div>
 
           {/* Publication Analytics Row */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div id="analytics" className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Papers by Year */}
             <Card className="border-0 shadow-xl bg-white/70 backdrop-blur-sm">
               <CardHeader className="bg-gradient-to-r from-slate-50 to-emerald-50/50 rounded-t-lg">
@@ -526,7 +548,7 @@ export default function Dashboard() {
             </Card>
 
             {/* Papers by Domain */}
-            <Card className="border-0 shadow-xl bg-white/70 backdrop-blur-sm">
+            <Card id="research" className="border-0 shadow-xl bg-white/70 backdrop-blur-sm">
               <CardHeader className="bg-gradient-to-r from-slate-50 to-purple-50/50 rounded-t-lg">
                 <CardTitle className="flex items-center gap-3">
                   <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-purple-500 to-pink-600">
@@ -540,7 +562,7 @@ export default function Dashboard() {
               </CardHeader>
               <CardContent className="p-6">
                 <div className="grid grid-cols-2 gap-3">
-                  {papersByDomain.slice(0, 6).map((domain, index) => (
+                  {papersByDomain.map((domain, index) => (
                     <div
                       key={domain.domain}
                       className="flex items-center justify-between p-3 rounded-lg bg-gradient-to-r from-white/60 to-slate-50/60 border border-slate-200/50 hover:shadow-sm transition-all duration-200"
@@ -559,48 +581,6 @@ export default function Dashboard() {
             </Card>
           </div>
 
-          {/* Future Analytics Widgets Placeholder */}
-          <Card className="border-0 shadow-xl bg-gradient-to-r from-white/60 to-slate-50/60 backdrop-blur-sm">
-            <CardHeader>
-              <CardTitle className="bg-gradient-to-r from-slate-900 to-slate-700 bg-clip-text text-transparent">
-                Advanced Analytics Hub
-              </CardTitle>
-              <CardDescription className="text-slate-600">
-                Expandable workspace for comprehensive research intelligence
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div className="border-2 border-dashed border-slate-300/50 rounded-xl p-8 text-center bg-gradient-to-br from-blue-50/50 to-white/50 hover:from-blue-50 hover:to-blue-25 transition-all duration-300">
-                  <div className="text-slate-500">
-                    <div className="w-12 h-12 mx-auto mb-3 bg-gradient-to-br from-blue-100 to-blue-200 rounded-lg flex items-center justify-center">
-                      <BarChart3 className="h-6 w-6 text-blue-600" />
-                    </div>
-                    <p className="text-sm font-medium">Citation Analysis</p>
-                    <p className="text-xs text-slate-400 mt-1">Impact metrics & trends</p>
-                  </div>
-                </div>
-                <div className="border-2 border-dashed border-slate-300/50 rounded-xl p-8 text-center bg-gradient-to-br from-emerald-50/50 to-white/50 hover:from-emerald-50 hover:to-emerald-25 transition-all duration-300">
-                  <div className="text-slate-500">
-                    <div className="w-12 h-12 mx-auto mb-3 bg-gradient-to-br from-emerald-100 to-emerald-200 rounded-lg flex items-center justify-center">
-                      <Users className="h-6 w-6 text-emerald-600" />
-                    </div>
-                    <p className="text-sm font-medium">Collaboration Networks</p>
-                    <p className="text-xs text-slate-400 mt-1">Research partnerships</p>
-                  </div>
-                </div>
-                <div className="border-2 border-dashed border-slate-300/50 rounded-xl p-8 text-center bg-gradient-to-br from-purple-50/50 to-white/50 hover:from-purple-50 hover:to-purple-25 transition-all duration-300">
-                  <div className="text-slate-500">
-                    <div className="w-12 h-12 mx-auto mb-3 bg-gradient-to-br from-purple-100 to-purple-200 rounded-lg flex items-center justify-center">
-                      <BookOpen className="h-6 w-6 text-purple-600" />
-                    </div>
-                    <p className="text-sm font-medium">Funding Analytics</p>
-                    <p className="text-xs text-slate-400 mt-1">Grant success rates</p>
-                  </div>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
         </div>
       </main>
     </SidebarProvider>
