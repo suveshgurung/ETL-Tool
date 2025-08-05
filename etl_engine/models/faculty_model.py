@@ -20,14 +20,14 @@ class Faculty(Base):
     school = relationship("School", back_populates="faculties")
 
     def __repr__(self):
-        full_name = " ".join(filter(None, [self.first_name, self.middle_name, self.last_name]))
-        return f"<Faculty(name='{full_name}', position='{self.position}', department='{self.department}')>"
+        return f"<Faculty(first_name='{self.first_name}', middle_name='{self.middle_name}', last_name='{self.last_name}', position='{self.position}', department='{self.department}')>"
 
     def as_dict(self):
-        full_name = " ".join(filter(None, [self.first_name, self.middle_name, self.last_name]))
         return {
             "faculty_id": self.faculty_id,
-            "name": full_name,
+            "first_name": self.first_name,
+            "middle_name": self.middle_name,
+            "last_name": self.last_name,
             "department_name": self.department_name,
             "school_name": self.school_name,
             "position": self.position
