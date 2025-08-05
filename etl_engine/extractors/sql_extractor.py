@@ -25,6 +25,12 @@ class SQLExtractor(BaseExtractor):
         department_df = self.__extract_department_information()
         school_df = self.__extract_school_information()
 
+        # School of management and school of arts does not have departments. so use school instead.
+        faculty_df['department_name'] = faculty_df.apply(
+            lambda row: row['school_name'] if pd.isna(row['department_name']) else row['department_name'],
+            axis=1
+        )
+
         return faculty_df, department_df, school_df
 
     def __extract_faculty_information(self) -> pd.DataFrame:

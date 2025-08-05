@@ -38,7 +38,7 @@ class MongoExtractor(BaseExtractor):
                             'first_name': first_name,
                             'middle_name': middle_name,
                             'last_name': last_name,
-                            'department': doc['department'],
+                            'department': doc['school'] if 'department' not in doc or doc['department'] in [None, "NULL"] else doc['department'],
                             'school': doc['school'],
                             'research_area': doc['research_area'],
                             'paper_title': paper['title'],
