@@ -44,10 +44,21 @@ class ResearchTransformer:
     @staticmethod
     def get_research_areas_by_faculty(research_df: pd.DataFrame) -> Dict[str, Any]:
         """Create a mapping of faculty names to their research areas"""
-        faculty_research = defaultdict(list)
+        faculty_research = defaultdict(set)
 
         for _, row in research_df.iterrows():
-            for author in row['coauthors']:
-                faculty_research[author.lower().strip()].extend(row['research_area'])
+            research_area = row['research_area']
+
+            if isinstance(research_area, str):
+                areas = [area.strip() for area in research_area.split(',')]
+            elif isinstance(research_area, list):
+                areas = research_area
+            else:
+                areas = []
+
+            # Research area for main author
+            main_author = row.get('faculty_id')
+            if main_author:
+                faculty_research[main_author].update(areas)
 
         return {k: list(set(v)) for k, v in faculty_research.items()}
