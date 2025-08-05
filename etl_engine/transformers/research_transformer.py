@@ -10,12 +10,22 @@ class ResearchTransformer:
         if research_df.empty:
             return {}
 
+        # Convert the name into normalized form.
+        research_df['normalized_name'] = research_df.apply(
+            lambda row: " ".join(filter(None, [
+                str(row['first_name']).lower().strip() if pd.notna(row['first_name']) else '',
+                str(row['middle_name']).lower().strip() if pd.notna(row['middle_name']) else '',
+                str(row['last_name']).lower().strip() if pd.notna(row['last_name']) else ''
+            ])),
+            axis=1
+        )
+
         # Number of publications by year
         year_counts = dict(Counter(research_df['published_year']))
 
         # Number of publications by research area
-        research_area = research_df['research_area'].explode()
-        area_counts = dict(Counter(research_area))
+        research_areas = research_df['research_area'].explode() if isinstance(research_df['research_area'].iloc[0], list) else research_df['research_area']
+        area_counts = dict(Counter(research_areas))
 
         # Number of publications by department
         dept_counts = dict(Counter(research_df['department']))
@@ -37,7 +47,7 @@ class ResearchTransformer:
         faculty_research = defaultdict(list)
 
         for _, row in research_df.iterrows():
-            for author in row['authors']:
+            for author in row['coauthors']:
                 faculty_research[author.lower().strip()].extend(row['research_area'])
 
         return {k: list(set(v)) for k, v in faculty_research.items()}

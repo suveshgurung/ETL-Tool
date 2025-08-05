@@ -10,6 +10,12 @@ class FacultyTransformer:
         if faculty_df.empty:
             return {}
 
+        # School of management and school of arts does not have departments. so use school instead.
+        faculty_df['department_name'] = faculty_df.apply(
+            lambda row: row['school_name'] if pd.isna(row['department_name']) else row['department_name'],
+            axis=1
+        )
+
         # Count faculty by position
         position_counts = dict(Counter(faculty_df['position'].str.lower()))
 

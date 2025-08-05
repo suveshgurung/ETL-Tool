@@ -23,7 +23,7 @@ class MongoExtractor(BaseExtractor):
                         first_name = None
                         middle_name = None
                         last_name = None
-                        full_name = doc['faculty_name']
+                        full_name = doc['faculty_name'].strip().split()
 
                         if len(full_name) == 2:
                             first_name = full_name[0]
