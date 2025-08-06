@@ -96,9 +96,12 @@ class PostgreSQLLoader:
         """Load faculty data and their research areas"""
         with get_postgres_db() as db:
             # Clear existing data
-            db.query(AnalyticsFaculty).delete()
-            db.query(ResearchArea).delete()
+            db.execute(text("DELETE FROM faculty_research_area"))
+            db.commit()
+
             db.query(Publication).delete()
+            db.query(ResearchArea).delete()
+            db.query(AnalyticsFaculty).delete()
 
             all_research_areas = set()
             for areas in research_by_faculty.values():

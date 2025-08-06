@@ -86,8 +86,8 @@ function AppSidebar() {
             <BarChart3 className="h-4 w-4 text-white" />
           </div>
           <div>
-            <span className="font-bold text-slate-900">Academic Analytics</span>
-            <p className="text-xs text-slate-500">Research Intelligence Platform</p>
+            <span className="font-bold text-slate-900">ScratchBase</span>
+            <p className="text-xs text-slate-500">Faculty Analysis ETL Tool</p>
           </div>
         </div>
       </SidebarHeader>
@@ -263,15 +263,6 @@ export default function Dashboard() {
     <SidebarProvider>
       <AppSidebar />
       <main className="flex-1 overflow-auto bg-gradient-to-br from-slate-50 via-white to-blue-50/30">
-        <div className="flex h-16 items-center border-b bg-white/80 backdrop-blur-sm px-6 shadow-sm">
-          <SidebarTrigger />
-          <div className="ml-4">
-            <h1 className="text-xl font-bold bg-gradient-to-r from-slate-900 to-slate-700 bg-clip-text text-transparent">
-              Academic Research Dashboard
-            </h1>
-            <p className="text-sm text-slate-600">Comprehensive analytics for research intelligence</p>
-          </div>
-        </div>
 
         <div className="p-6 space-y-8">
           {/* Overview Stats */}
@@ -511,7 +502,7 @@ export default function Dashboard() {
                       color: "hsl(var(--chart-1))",
                     },
                   }}
-                  className="h-48"
+                  className="h-72"
                 >
                   <ResponsiveContainer width="100%" height="100%">
                     <LineChart data={papersByYear}>

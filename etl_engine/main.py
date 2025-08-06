@@ -5,6 +5,8 @@ from etl_engine.transformers.faculty_transformer import FacultyTransformer
 from etl_engine.transformers.research_transformer import ResearchTransformer
 from etl_engine.loaders.postgres_loader import PostgreSQLLoader
 from typing import Dict, Any
+import sys
+import os
 
 def main():
     print("Starting ETL Process...")
@@ -95,5 +97,36 @@ def main():
         print(f"PostgreSQL loading failed: {e}")
         return
 
+def run_api_server():
+    """Start the FastAPI server for data access through API."""
+    try:
+        import uvicorn
+        from etl_engine.api.main import app
+        print("Starting API server on http://localhost:8000...")
+        uvicorn.run(app, host="0.0.0.0", port=8000)
+    except Exception as e:
+        print(f"Failed to start the API server: {e}")
+
+def run_dashboard_server():
+    """Start the backend dashboard server"""
+    try:
+        from etl_engine.dashboard.backend import app
+        print("Starting the Dashboard backend server on http://localhost:5000")
+        app.run(debug=True, host='0.0.0.0', port=5000)
+    except Exception as e:
+        print(f"Failed to start dashboard server: {e}")
+
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) > 1:
+        command = sys.argv[1]
+
+        if command == "api":
+            run_api_server()
+        elif command == "dashboard":
+            run_dashboard_server()
+        elif command == "etl":
+            main()
+        else:
+            print("Usage: python3 -m etl_engine.main [etl|api|dashboard]")
+    else:
+        main()
